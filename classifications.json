@@ -1838,17 +1838,17 @@
       "district": 7
     },
     {
-      "school": "STEAM Academy",
-      "classification": 4,
-      "district": 7
-    },
-    {
       "school": "St. Charles",
       "classification": 4,
       "district": 7
     },
     {
       "school": "St. Charles West",
+      "classification": 4,
+      "district": 7
+    },
+    {
+      "school": "STEAM Academy",
       "classification": 4,
       "district": 7
     },
@@ -2223,17 +2223,17 @@
       "district": 3
     },
     {
-      "school": "MICDS",
-      "classification": 5,
-      "district": 3
-    },
-    {
       "school": "McCluer",
       "classification": 5,
       "district": 3
     },
     {
       "school": "McCluer North",
+      "classification": 5,
+      "district": 3
+    },
+    {
+      "school": "MICDS",
       "classification": 5,
       "district": 3
     },
@@ -2408,12 +2408,12 @@
       "district": 7
     },
     {
-      "school": "KIPP KC Legacy",
+      "school": "Kearney",
       "classification": 5,
       "district": 8
     },
     {
-      "school": "Kearney",
+      "school": "KIPP KC Legacy",
       "classification": 5,
       "district": 8
     },
@@ -2478,12 +2478,12 @@
       "district": 1
     },
     {
-      "school": "SLUH",
+      "school": "Seckman",
       "classification": 6,
       "district": 1
     },
     {
-      "school": "Seckman",
+      "school": "SLUH",
       "classification": 6,
       "district": 1
     },
@@ -2568,12 +2568,12 @@
       "district": 3
     },
     {
-      "school": "Francis Howell",
+      "school": "Francis Howell Central",
       "classification": 6,
       "district": 4
     },
     {
-      "school": "Francis Howell Central",
+      "school": "Francis Howell",
       "classification": 6,
       "district": 4
     },

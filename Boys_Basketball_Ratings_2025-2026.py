@@ -6,6 +6,24 @@ import re
 import pandas as pd
 from datetime import datetime, date, timedelta
 import time
+import socket
+ 
+# ---------------------------------------------------------------------------
+# NETWORK WORKAROUND -- force IPv4-only DNS resolution
+# ---------------------------------------------------------------------------
+# GitHub Actions ubuntu-latest runners have intermittently broken/absent
+# IPv6 routing. If www.mshsaa.org's DNS returns an IPv6 (AAAA) address,
+# Python's socket layer can try that first and fail immediately with
+# [Errno 101] Network is unreachable -- and depending on the retry/adapter
+# config, that failure can end up applying to every single request in the
+# run instead of cleanly falling back to IPv4. This has now recurred across
+# multiple separate runs (not a one-off blip), so patch getaddrinfo()
+# process-wide to only ever return IPv4 addresses, sidestepping the issue
+# entirely rather than hoping a re-run gets lucky.
+_orig_getaddrinfo = socket.getaddrinfo
+def _getaddrinfo_ipv4_only(host, port, family=0, type=0, proto=0, flags=0):
+    return _orig_getaddrinfo(host, port, socket.AF_INET, type, proto, flags)
+socket.getaddrinfo = _getaddrinfo_ipv4_only
  
 # ---------------------------------------------------------------------------
 # CONFIGURATION
@@ -160,7 +178,78 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
     # dict, let report_missing_teams() surface every classifications.json
     # school with zero scraped games, then look up each one's real s= ID
     # from the alg=5 scoreboard/schedule page and add it here.
+    #
+    # Below: the 28 non-co-op schools identified as missing entirely from
+    # mshsaa_schools.csv (cross-referenced against boys_basketball_scoreboard
+    # _2025.csv on 2025-26 data). Fill in each "TODO" with the real school ID
+    # pulled from the s= parameter on that school's MSHSAA schedule page.
+    #
+    # NOT included here -- these 6 are co-op names and should be resolved via
+    # Aliases.json instead of MANUAL_OVERRIDES, since MSHSAA's scoreboard
+    # likely lists each co-op partner separately rather than combined:
+    #   Cainsville with Ridgeway
+    #   Collegiate School of Med-Bio Science with Central Visual and Performing Arts
+    #   Gilman City with North Daviess
+    #   Hale with Bosworth
+    #   Montrose with Ballard
+    #   Paris with Faith Walk
+    #
+    # ALSO not included -- Russellville (430), Stover (449), and Sullivan (200)
+    # already resolve fine (they're in mshsaa_schools.csv with valid IDs) but
+    # still show 0 games. That's a MANUAL_GAMES backfill issue, not a name-
+    # resolution issue -- see the MANUAL_GAMES section below.
+    # NOTE: each key below MUST be a unique school ID string, replacing the
+    # "TODO_<school>" placeholder. Duplicate dict keys (e.g. two literal
+    # "TODO" strings) would silently collapse to a single entry in Python --
+    # these placeholders are made unique specifically to avoid that trap.
     MANUAL_OVERRIDES = {
+        "431": "Salisbury",
+        "432": "Santa Fe",
+        "434": "Scotland County",
+        "435": "Scott City",
+        "437": "Seymour",
+        "438": "Sheldon",
+        "440": "Silex",
+        "443": "Skyline",
+        "194": "Smith-Cotton",
+        "446": "South Harrison",
+        "447": "South Holt",
+        "448": "South Iron",
+        "453": "Southland",
+        "454": "Southwest (Livingston County) with Breckenridge",
+        "455": "Southwest (Washburn)",
+        "549": "St. Mary's South Side",
+        "205": "Steelville",
+        "463": "Stockton",
+        "464": "Stoutland",
+        "466": "Strafford",
+        "467": "Sturgeon",
+        "208": "Sumner",
+        "473": "Tina-Avalon",
+        "198": "Truman",
+        "199": "Twin Rivers",
+        "204": "Van Horn",
+        "206": "Vashon",
+        "503": "Winston",
+        "250": "Cainsville with Ridgeway",
+        "985": "Collegiate School of Med-Bio Science with Central Visual and Performing Arts",
+        "301": "Gilman City with North Daviess",
+        "309": "Hale with Bosworth",
+        "156": "Paris with Faith Walk",
+        "430": "Russellville",
+        "463": "Stockton",
+        "207": "Sullivan",
+        "445": "Smithville",
+        "197": "South Callaway",
+        "450": "South Pemiscot",
+        "458": "St. Elizabeth",
+        "460": "Stanberry",
+        "465": "Stover",
+        "193": "Slater",
+        "456": "Sparta",
+        "468": "Summersville",
+        "246": "Bucklin with Macon County",
+        "449": "South Nodaway with Jefferson (Conception)",
     }
  
     df = pd.read_csv(schools_csv)
@@ -325,6 +414,32 @@ def scrape_full_season(id_to_classname, known_teams):
         print(f"  [TIMING] {len(slow_days)} slow day(s) (>3s each):")
         for d, secs in slow_days:
             print(f"    {d}: {secs:.1f}s")
+ 
+    # ---------------------------------------------------------------
+    # SECOND-PASS RETRY -- automatically re-attempt any date that never
+    # returned data on the first pass. Most of these are transient
+    # (a single slow/dropped response on MSHSAA's end), not permanent
+    # data gaps, which is why the set of "0 games" teams has been
+    # shifting from run to run rather than staying fixed. Retrying here
+    # means those transient misses self-heal without anyone manually
+    # tracking down IDs and adding MANUAL_GAMES entries for something
+    # that was never actually missing from MSHSAA in the first place.
+    # ---------------------------------------------------------------
+    if failed_days:
+        print(f"\n  Retrying {len(failed_days)} failed date(s) "
+              f"(second pass)...")
+        still_failed = []
+        for d, reason in failed_days:
+            time.sleep(1.0)   # a bit more breathing room than the main pass
+            print(f"  Retrying {d}...", end=" ", flush=True)
+            day_games, fail_reason = scrape_date(d, id_to_classname, known_teams, session)
+            print(f"{len(day_games)} games")
+            if fail_reason is None:
+                all_games.extend(day_games)
+            else:
+                still_failed.append((d, fail_reason))
+        failed_days = still_failed
+ 
     if failed_days:
         print(f"\n  *** {len(failed_days)} date(s) NEVER returned data, "
               f"even after retry -- these dates may be missing real "
