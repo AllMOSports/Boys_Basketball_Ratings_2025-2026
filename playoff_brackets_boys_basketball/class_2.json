@@ -1,0 +1,2378 @@
+{
+ "sport": "boys_basketball",
+ "season": 2025,
+ "class": 2,
+ "teams": 111,
+ "bracket_lines": 128,
+ "districts_count": 16,
+ "rounds": [
+  "District Quarterfinal",
+  "District Semifinal",
+  "District Championship",
+  "Sectional",
+  "Quarterfinal",
+  "Semifinal",
+  "Championship"
+ ],
+ "byes": 17,
+ "bye_rule": "statewide",
+ "drive_time_factor": 1.0,
+ "limits_hours": {
+  "district_rounds": 3.0,
+  "sectional": 4.0
+ },
+ "solver_status": "stage1 OPTIMAL, stage2 FEASIBLE",
+ "violations_proven_minimum": true,
+ "solve_seconds": 246.7,
+ "violations": [],
+ "seeds": [
+  {
+   "seed": 1,
+   "team": "Puxico",
+   "ovr_rating": 29.49,
+   "rating_rank": 1
+  },
+  {
+   "seed": 2,
+   "team": "Hartville",
+   "ovr_rating": 26.24,
+   "rating_rank": 2
+  },
+  {
+   "seed": 3,
+   "team": "Eugene",
+   "ovr_rating": 23.99,
+   "rating_rank": 3
+  },
+  {
+   "seed": 4,
+   "team": "Bernie",
+   "ovr_rating": 23.44,
+   "rating_rank": 4
+  },
+  {
+   "seed": 5,
+   "team": "Charleston",
+   "ovr_rating": 23.31,
+   "rating_rank": 5
+  },
+  {
+   "seed": 6,
+   "team": "Hayti",
+   "ovr_rating": 23.11,
+   "rating_rank": 6
+  },
+  {
+   "seed": 7,
+   "team": "Van Buren",
+   "ovr_rating": 17.42,
+   "rating_rank": 7
+  },
+  {
+   "seed": 8,
+   "team": "Mansfield",
+   "ovr_rating": 17.33,
+   "rating_rank": 8
+  },
+  {
+   "seed": 9,
+   "team": "Norwood",
+   "ovr_rating": 16.89,
+   "rating_rank": 9
+  },
+  {
+   "seed": 10,
+   "team": "Chaffee",
+   "ovr_rating": 16.29,
+   "rating_rank": 10
+  },
+  {
+   "seed": 11,
+   "team": "Crane",
+   "ovr_rating": 16.15,
+   "rating_rank": 11
+  },
+  {
+   "seed": 12,
+   "team": "South Pemiscot",
+   "ovr_rating": 14.14,
+   "rating_rank": 12
+  },
+  {
+   "seed": 13,
+   "team": "Salisbury",
+   "ovr_rating": 10.17,
+   "rating_rank": 13
+  },
+  {
+   "seed": 14,
+   "team": "Glasgow",
+   "ovr_rating": 10.02,
+   "rating_rank": 14
+  },
+  {
+   "seed": 15,
+   "team": "South Iron",
+   "ovr_rating": 9.22,
+   "rating_rank": 15
+  },
+  {
+   "seed": 16,
+   "team": "St. Vincent",
+   "ovr_rating": 9.07,
+   "rating_rank": 16
+  },
+  {
+   "seed": 17,
+   "team": "Gallatin",
+   "ovr_rating": 8.46,
+   "rating_rank": 17
+  },
+  {
+   "seed": 18,
+   "team": "East Carter",
+   "ovr_rating": 8.24,
+   "rating_rank": 18
+  },
+  {
+   "seed": 19,
+   "team": "Advance",
+   "ovr_rating": 8.19,
+   "rating_rank": 19
+  },
+  {
+   "seed": 20,
+   "team": "Senath-Hornersville",
+   "ovr_rating": 7.16,
+   "rating_rank": 20
+  },
+  {
+   "seed": 21,
+   "team": "Galena",
+   "ovr_rating": 6.5,
+   "rating_rank": 21
+  },
+  {
+   "seed": 22,
+   "team": "St. Paul Lutheran (Concordia)",
+   "ovr_rating": 5.19,
+   "rating_rank": 22
+  },
+  {
+   "seed": 23,
+   "team": "West Nodaway with Nodaway-Holt",
+   "ovr_rating": 5.19,
+   "rating_rank": 23
+  },
+  {
+   "seed": 24,
+   "team": "Russellville",
+   "ovr_rating": 4.74,
+   "rating_rank": 24
+  },
+  {
+   "seed": 25,
+   "team": "New Franklin",
+   "ovr_rating": 4.52,
+   "rating_rank": 25
+  },
+  {
+   "seed": 26,
+   "team": "Bakersfield",
+   "ovr_rating": 4.08,
+   "rating_rank": 26
+  },
+  {
+   "seed": 27,
+   "team": "Penney",
+   "ovr_rating": 3.96,
+   "rating_rank": 27
+  },
+  {
+   "seed": 28,
+   "team": "Lincoln",
+   "ovr_rating": 3.46,
+   "rating_rank": 28
+  },
+  {
+   "seed": 29,
+   "team": "Alton",
+   "ovr_rating": 3.3,
+   "rating_rank": 29
+  },
+  {
+   "seed": 30,
+   "team": "Fordland",
+   "ovr_rating": 3.2,
+   "rating_rank": 30
+  },
+  {
+   "seed": 31,
+   "team": "Neelyville",
+   "ovr_rating": 2.39,
+   "rating_rank": 31
+  },
+  {
+   "seed": 32,
+   "team": "Van-Far",
+   "ovr_rating": 2.31,
+   "rating_rank": 32
+  },
+  {
+   "seed": 33,
+   "team": "Tipton",
+   "ovr_rating": 2.27,
+   "rating_rank": 33
+  },
+  {
+   "seed": 34,
+   "team": "Harrisburg",
+   "ovr_rating": 2.02,
+   "rating_rank": 34
+  },
+  {
+   "seed": 35,
+   "team": "Blue Eye",
+   "ovr_rating": 1.74,
+   "rating_rank": 35
+  },
+  {
+   "seed": 36,
+   "team": "Campbell",
+   "ovr_rating": 1.55,
+   "rating_rank": 36
+  },
+  {
+   "seed": 37,
+   "team": "Crest Ridge",
+   "ovr_rating": 1.15,
+   "rating_rank": 37
+  },
+  {
+   "seed": 38,
+   "team": "Schuyler County",
+   "ovr_rating": 1.11,
+   "rating_rank": 38
+  },
+  {
+   "seed": 39,
+   "team": "Westran",
+   "ovr_rating": 0.68,
+   "rating_rank": 39
+  },
+  {
+   "seed": 40,
+   "team": "Maysville",
+   "ovr_rating": -0.49,
+   "rating_rank": 40
+  },
+  {
+   "seed": 41,
+   "team": "Greenville",
+   "ovr_rating": -0.81,
+   "rating_rank": 41
+  },
+  {
+   "seed": 42,
+   "team": "Scotland County",
+   "ovr_rating": -2.08,
+   "rating_rank": 42
+  },
+  {
+   "seed": 43,
+   "team": "Silex",
+   "ovr_rating": -4.34,
+   "rating_rank": 43
+  },
+  {
+   "seed": 44,
+   "team": "Louisiana",
+   "ovr_rating": -4.37,
+   "rating_rank": 44
+  },
+  {
+   "seed": 45,
+   "team": "Clopton",
+   "ovr_rating": -4.86,
+   "rating_rank": 45
+  },
+  {
+   "seed": 46,
+   "team": "Calvary Lutheran",
+   "ovr_rating": -5.65,
+   "rating_rank": 46
+  },
+  {
+   "seed": 47,
+   "team": "Tarkio with Fairfax",
+   "ovr_rating": -6.17,
+   "rating_rank": 47
+  },
+  {
+   "seed": 48,
+   "team": "Valle Catholic",
+   "ovr_rating": -6.93,
+   "rating_rank": 48
+  },
+  {
+   "seed": 49,
+   "team": "Lockwood",
+   "ovr_rating": -7.0,
+   "rating_rank": 49
+  },
+  {
+   "seed": 50,
+   "team": "Paris with Faith Walk",
+   "ovr_rating": -8.19,
+   "rating_rank": 50
+  },
+  {
+   "seed": 51,
+   "team": "Canton",
+   "ovr_rating": -8.28,
+   "rating_rank": 51
+  },
+  {
+   "seed": 52,
+   "team": "Appleton City",
+   "ovr_rating": -8.33,
+   "rating_rank": 52
+  },
+  {
+   "seed": 53,
+   "team": "Gloria Deo Academy",
+   "ovr_rating": -8.4,
+   "rating_rank": 53
+  },
+  {
+   "seed": 54,
+   "team": "Thomas Jefferson Independent Day",
+   "ovr_rating": -8.45,
+   "rating_rank": 54
+  },
+  {
+   "seed": 55,
+   "team": "Green Ridge",
+   "ovr_rating": -8.73,
+   "rating_rank": 55
+  },
+  {
+   "seed": 56,
+   "team": "Naylor",
+   "ovr_rating": -9.17,
+   "rating_rank": 56
+  },
+  {
+   "seed": 57,
+   "team": "Newburg",
+   "ovr_rating": -9.43,
+   "rating_rank": 57
+  },
+  {
+   "seed": 58,
+   "team": "Archie",
+   "ovr_rating": -10.15,
+   "rating_rank": 58
+  },
+  {
+   "seed": 59,
+   "team": "Bloomfield",
+   "ovr_rating": -10.46,
+   "rating_rank": 59
+  },
+  {
+   "seed": 60,
+   "team": "Putnam County",
+   "ovr_rating": -10.69,
+   "rating_rank": 60
+  },
+  {
+   "seed": 61,
+   "team": "Spokane",
+   "ovr_rating": -10.71,
+   "rating_rank": 61
+  },
+  {
+   "seed": 62,
+   "team": "New Bloomfield",
+   "ovr_rating": -12.53,
+   "rating_rank": 62
+  },
+  {
+   "seed": 63,
+   "team": "Slater",
+   "ovr_rating": -12.76,
+   "rating_rank": 63
+  },
+  {
+   "seed": 64,
+   "team": "Vienna",
+   "ovr_rating": -12.93,
+   "rating_rank": 64
+  },
+  {
+   "seed": 65,
+   "team": "Albany",
+   "ovr_rating": -13.28,
+   "rating_rank": 65
+  },
+  {
+   "seed": 66,
+   "team": "New Haven",
+   "ovr_rating": -13.35,
+   "rating_rank": 66
+  },
+  {
+   "seed": 67,
+   "team": "Pleasant Hope",
+   "ovr_rating": -14.38,
+   "rating_rank": 67
+  },
+  {
+   "seed": 68,
+   "team": "Macks Creek",
+   "ovr_rating": -14.83,
+   "rating_rank": 68
+  },
+  {
+   "seed": 69,
+   "team": "Wellington-Napoleon",
+   "ovr_rating": -15.57,
+   "rating_rank": 69
+  },
+  {
+   "seed": 70,
+   "team": "Oran",
+   "ovr_rating": -15.93,
+   "rating_rank": 70
+  },
+  {
+   "seed": 71,
+   "team": "Marion C. Early",
+   "ovr_rating": -16.41,
+   "rating_rank": 71
+  },
+  {
+   "seed": 72,
+   "team": "Academie Lafayette",
+   "ovr_rating": -16.59,
+   "rating_rank": 72
+  },
+  {
+   "seed": 73,
+   "team": "Valley",
+   "ovr_rating": -17.24,
+   "rating_rank": 73
+  },
+  {
+   "seed": 74,
+   "team": "Marceline",
+   "ovr_rating": -17.8,
+   "rating_rank": 74
+  },
+  {
+   "seed": 75,
+   "team": "Oak Ridge",
+   "ovr_rating": -18.03,
+   "rating_rank": 75
+  },
+  {
+   "seed": 76,
+   "team": "Northland Christian",
+   "ovr_rating": -18.58,
+   "rating_rank": 76
+  },
+  {
+   "seed": 77,
+   "team": "Winona",
+   "ovr_rating": -18.78,
+   "rating_rank": 77
+  },
+  {
+   "seed": 78,
+   "team": "Fayette",
+   "ovr_rating": -18.8,
+   "rating_rank": 78
+  },
+  {
+   "seed": 79,
+   "team": "Meadow Heights",
+   "ovr_rating": -19.3,
+   "rating_rank": 79
+  },
+  {
+   "seed": 80,
+   "team": "Lutheran (Kansas City)",
+   "ovr_rating": -19.59,
+   "rating_rank": 80
+  },
+  {
+   "seed": 81,
+   "team": "Wheaton",
+   "ovr_rating": -20.12,
+   "rating_rank": 81
+  },
+  {
+   "seed": 82,
+   "team": "Purdy",
+   "ovr_rating": -20.29,
+   "rating_rank": 82
+  },
+  {
+   "seed": 83,
+   "team": "Sturgeon",
+   "ovr_rating": -20.34,
+   "rating_rank": 83
+  },
+  {
+   "seed": 84,
+   "team": "Knox County",
+   "ovr_rating": -21.67,
+   "rating_rank": 84
+  },
+  {
+   "seed": 85,
+   "team": "Brentwood",
+   "ovr_rating": -21.91,
+   "rating_rank": 85
+  },
+  {
+   "seed": 86,
+   "team": "Osceola",
+   "ovr_rating": -22.2,
+   "rating_rank": 86
+  },
+  {
+   "seed": 87,
+   "team": "St. Joseph Christian",
+   "ovr_rating": -22.45,
+   "rating_rank": 87
+  },
+  {
+   "seed": 88,
+   "team": "Jasper",
+   "ovr_rating": -22.69,
+   "rating_rank": 88
+  },
+  {
+   "seed": 89,
+   "team": "Crocker",
+   "ovr_rating": -23.14,
+   "rating_rank": 89
+  },
+  {
+   "seed": 90,
+   "team": "Holcomb",
+   "ovr_rating": -24.21,
+   "rating_rank": 90
+  },
+  {
+   "seed": 91,
+   "team": "Bismarck",
+   "ovr_rating": -24.8,
+   "rating_rank": 91
+  },
+  {
+   "seed": 92,
+   "team": "Rich Hill",
+   "ovr_rating": -25.02,
+   "rating_rank": 92
+  },
+  {
+   "seed": 93,
+   "team": "Plattsburg",
+   "ovr_rating": -26.1,
+   "rating_rank": 93
+  },
+  {
+   "seed": 94,
+   "team": "Richland",
+   "ovr_rating": -26.1,
+   "rating_rank": 94
+  },
+  {
+   "seed": 95,
+   "team": "Concordia",
+   "ovr_rating": -26.87,
+   "rating_rank": 95
+  },
+  {
+   "seed": 96,
+   "team": "Polo",
+   "ovr_rating": -27.47,
+   "rating_rank": 96
+  },
+  {
+   "seed": 97,
+   "team": "Summersville",
+   "ovr_rating": -27.74,
+   "rating_rank": 97
+  },
+  {
+   "seed": 98,
+   "team": "Santa Fe",
+   "ovr_rating": -30.16,
+   "rating_rank": 98
+  },
+  {
+   "seed": 99,
+   "team": "Crystal City",
+   "ovr_rating": -32.68,
+   "rating_rank": 99
+  },
+  {
+   "seed": 100,
+   "team": "Lakeland",
+   "ovr_rating": -34.31,
+   "rating_rank": 100
+  },
+  {
+   "seed": 101,
+   "team": "Sweet Springs",
+   "ovr_rating": -34.51,
+   "rating_rank": 101
+  },
+  {
+   "seed": 102,
+   "team": "Frontier School of Excellence Charter",
+   "ovr_rating": -36.5,
+   "rating_rank": 102
+  },
+  {
+   "seed": 103,
+   "team": "Dora",
+   "ovr_rating": -36.86,
+   "rating_rank": 103
+  },
+  {
+   "seed": 104,
+   "team": "Smithton",
+   "ovr_rating": -39.97,
+   "rating_rank": 104
+  },
+  {
+   "seed": 105,
+   "team": "Exeter",
+   "ovr_rating": -40.39,
+   "rating_rank": 105
+  },
+  {
+   "seed": 106,
+   "team": "Midway",
+   "ovr_rating": -43.22,
+   "rating_rank": 106
+  },
+  {
+   "seed": 107,
+   "team": "Ellington",
+   "ovr_rating": -43.72,
+   "rating_rank": 107
+  },
+  {
+   "seed": 108,
+   "team": "Plato",
+   "ovr_rating": -44.05,
+   "rating_rank": 108
+  },
+  {
+   "seed": 109,
+   "team": "Verona",
+   "ovr_rating": -45.54,
+   "rating_rank": 109
+  },
+  {
+   "seed": 110,
+   "team": "DeLaSalle Charter (KC)",
+   "ovr_rating": -48.85,
+   "rating_rank": 110
+  },
+  {
+   "seed": 111,
+   "team": "Milan",
+   "ovr_rating": -63.87,
+   "rating_rank": 111
+  }
+ ],
+ "jumps": [],
+ "districts": [
+  {
+   "district": 1,
+   "teams": [
+    {
+     "seed": 1,
+     "team": "Puxico"
+    },
+    {
+     "seed": 4,
+     "team": "Bernie"
+    },
+    {
+     "seed": 31,
+     "team": "Neelyville"
+    },
+    {
+     "seed": 73,
+     "team": "Valley"
+    },
+    {
+     "seed": 91,
+     "team": "Bismarck"
+    },
+    {
+     "seed": 99,
+     "team": "Crystal City"
+    }
+   ],
+   "byes": [
+    "Puxico",
+    "Bernie"
+   ],
+   "dqf_games": [
+    {
+     "home": "Valley",
+     "away": "Bismarck",
+     "drive_h": 0.34
+    },
+    {
+     "home": "Neelyville",
+     "away": "Crystal City",
+     "drive_h": 2.68
+    }
+   ],
+   "max_drive_h": 2.84
+  },
+  {
+   "district": 2,
+   "teams": [
+    {
+     "seed": 15,
+     "team": "South Iron"
+    },
+    {
+     "seed": 16,
+     "team": "St. Vincent"
+    },
+    {
+     "seed": 18,
+     "team": "East Carter"
+    },
+    {
+     "seed": 19,
+     "team": "Advance"
+    },
+    {
+     "seed": 48,
+     "team": "Valle Catholic"
+    },
+    {
+     "seed": 79,
+     "team": "Meadow Heights"
+    }
+   ],
+   "byes": [
+    "South Iron",
+    "St. Vincent"
+   ],
+   "dqf_games": [
+    {
+     "home": "Advance",
+     "away": "Valle Catholic",
+     "drive_h": 1.8
+    },
+    {
+     "home": "East Carter",
+     "away": "Meadow Heights",
+     "drive_h": 1.92
+    }
+   ],
+   "max_drive_h": 2.51
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 22,
+     "team": "St. Paul Lutheran (Concordia)"
+    },
+    {
+     "seed": 28,
+     "team": "Lincoln"
+    },
+    {
+     "seed": 37,
+     "team": "Crest Ridge"
+    },
+    {
+     "seed": 55,
+     "team": "Green Ridge"
+    },
+    {
+     "seed": 71,
+     "team": "Marion C. Early"
+    },
+    {
+     "seed": 89,
+     "team": "Crocker"
+    },
+    {
+     "seed": 101,
+     "team": "Sweet Springs"
+    },
+    {
+     "seed": 104,
+     "team": "Smithton"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "St. Paul Lutheran (Concordia)",
+     "away": "Smithton",
+     "drive_h": 1.01
+    },
+    {
+     "home": "Green Ridge",
+     "away": "Marion C. Early",
+     "drive_h": 2.17
+    },
+    {
+     "home": "Lincoln",
+     "away": "Sweet Springs",
+     "drive_h": 1.15
+    },
+    {
+     "home": "Crest Ridge",
+     "away": "Crocker",
+     "drive_h": 2.9
+    }
+   ],
+   "max_drive_h": 2.9
+  },
+  {
+   "district": 4,
+   "teams": [
+    {
+     "seed": 52,
+     "team": "Appleton City"
+    },
+    {
+     "seed": 54,
+     "team": "Thomas Jefferson Independent Day"
+    },
+    {
+     "seed": 58,
+     "team": "Archie"
+    },
+    {
+     "seed": 72,
+     "team": "Academie Lafayette"
+    },
+    {
+     "seed": 86,
+     "team": "Osceola"
+    },
+    {
+     "seed": 88,
+     "team": "Jasper"
+    },
+    {
+     "seed": 92,
+     "team": "Rich Hill"
+    },
+    {
+     "seed": 106,
+     "team": "Midway"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Appleton City",
+     "away": "Midway",
+     "drive_h": 1.38
+    },
+    {
+     "home": "Academie Lafayette",
+     "away": "Osceola",
+     "drive_h": 2.04
+    },
+    {
+     "home": "Thomas Jefferson Independent Day",
+     "away": "Rich Hill",
+     "drive_h": 1.52
+    },
+    {
+     "home": "Archie",
+     "away": "Jasper",
+     "drive_h": 1.53
+    }
+   ],
+   "max_drive_h": 2.87
+  },
+  {
+   "district": 5,
+   "teams": [
+    {
+     "seed": 27,
+     "team": "Penney"
+    },
+    {
+     "seed": 40,
+     "team": "Maysville"
+    },
+    {
+     "seed": 65,
+     "team": "Albany"
+    },
+    {
+     "seed": 69,
+     "team": "Wellington-Napoleon"
+    },
+    {
+     "seed": 93,
+     "team": "Plattsburg"
+    },
+    {
+     "seed": 96,
+     "team": "Polo"
+    },
+    {
+     "seed": 98,
+     "team": "Santa Fe"
+    },
+    {
+     "seed": 102,
+     "team": "Frontier School of Excellence Charter"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Penney",
+     "away": "Frontier School of Excellence Charter",
+     "drive_h": 1.4
+    },
+    {
+     "home": "Wellington-Napoleon",
+     "away": "Plattsburg",
+     "drive_h": 1.42
+    },
+    {
+     "home": "Maysville",
+     "away": "Santa Fe",
+     "drive_h": 2.06
+    },
+    {
+     "home": "Albany",
+     "away": "Polo",
+     "drive_h": 1.67
+    }
+   ],
+   "max_drive_h": 2.78
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 17,
+     "team": "Gallatin"
+    },
+    {
+     "seed": 23,
+     "team": "West Nodaway with Nodaway-Holt"
+    },
+    {
+     "seed": 47,
+     "team": "Tarkio with Fairfax"
+    },
+    {
+     "seed": 76,
+     "team": "Northland Christian"
+    },
+    {
+     "seed": 80,
+     "team": "Lutheran (Kansas City)"
+    },
+    {
+     "seed": 87,
+     "team": "St. Joseph Christian"
+    },
+    {
+     "seed": 110,
+     "team": "DeLaSalle Charter (KC)"
+    }
+   ],
+   "byes": [
+    "Gallatin"
+   ],
+   "dqf_games": [
+    {
+     "home": "Northland Christian",
+     "away": "Lutheran (Kansas City)",
+     "drive_h": 0.76
+    },
+    {
+     "home": "West Nodaway with Nodaway-Holt",
+     "away": "DeLaSalle Charter (KC)",
+     "drive_h": 2.28
+    },
+    {
+     "home": "Tarkio with Fairfax",
+     "away": "St. Joseph Christian",
+     "drive_h": 1.37
+    }
+   ],
+   "max_drive_h": 2.67
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 7,
+     "team": "Van Buren"
+    },
+    {
+     "seed": 26,
+     "team": "Bakersfield"
+    },
+    {
+     "seed": 29,
+     "team": "Alton"
+    },
+    {
+     "seed": 30,
+     "team": "Fordland"
+    },
+    {
+     "seed": 97,
+     "team": "Summersville"
+    },
+    {
+     "seed": 103,
+     "team": "Dora"
+    },
+    {
+     "seed": 107,
+     "team": "Ellington"
+    }
+   ],
+   "byes": [
+    "Van Buren"
+   ],
+   "dqf_games": [
+    {
+     "home": "Fordland",
+     "away": "Summersville",
+     "drive_h": 1.97
+    },
+    {
+     "home": "Bakersfield",
+     "away": "Ellington",
+     "drive_h": 2.69
+    },
+    {
+     "home": "Alton",
+     "away": "Dora",
+     "drive_h": 1.5
+    }
+   ],
+   "max_drive_h": 2.97
+  },
+  {
+   "district": 8,
+   "teams": [
+    {
+     "seed": 8,
+     "team": "Mansfield"
+    },
+    {
+     "seed": 9,
+     "team": "Norwood"
+    },
+    {
+     "seed": 53,
+     "team": "Gloria Deo Academy"
+    },
+    {
+     "seed": 57,
+     "team": "Newburg"
+    },
+    {
+     "seed": 77,
+     "team": "Winona"
+    },
+    {
+     "seed": 108,
+     "team": "Plato"
+    }
+   ],
+   "byes": [
+    "Mansfield",
+    "Norwood"
+   ],
+   "dqf_games": [
+    {
+     "home": "Newburg",
+     "away": "Winona",
+     "drive_h": 2.2
+    },
+    {
+     "home": "Gloria Deo Academy",
+     "away": "Plato",
+     "drive_h": 2.1
+    }
+   ],
+   "max_drive_h": 2.56
+  },
+  {
+   "district": 9,
+   "teams": [
+    {
+     "seed": 32,
+     "team": "Van-Far"
+    },
+    {
+     "seed": 33,
+     "team": "Tipton"
+    },
+    {
+     "seed": 34,
+     "team": "Harrisburg"
+    },
+    {
+     "seed": 62,
+     "team": "New Bloomfield"
+    },
+    {
+     "seed": 63,
+     "team": "Slater"
+    },
+    {
+     "seed": 64,
+     "team": "Vienna"
+    },
+    {
+     "seed": 66,
+     "team": "New Haven"
+    },
+    {
+     "seed": 95,
+     "team": "Concordia"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Van-Far",
+     "away": "Concordia",
+     "drive_h": 2.64
+    },
+    {
+     "home": "New Bloomfield",
+     "away": "Slater",
+     "drive_h": 1.97
+    },
+    {
+     "home": "Tipton",
+     "away": "New Haven",
+     "drive_h": 2.25
+    },
+    {
+     "home": "Harrisburg",
+     "away": "Vienna",
+     "drive_h": 1.84
+    }
+   ],
+   "max_drive_h": 2.95
+  },
+  {
+   "district": 10,
+   "teams": [
+    {
+     "seed": 43,
+     "team": "Silex"
+    },
+    {
+     "seed": 45,
+     "team": "Clopton"
+    },
+    {
+     "seed": 46,
+     "team": "Calvary Lutheran"
+    },
+    {
+     "seed": 50,
+     "team": "Paris with Faith Walk"
+    },
+    {
+     "seed": 51,
+     "team": "Canton"
+    },
+    {
+     "seed": 78,
+     "team": "Fayette"
+    },
+    {
+     "seed": 83,
+     "team": "Sturgeon"
+    },
+    {
+     "seed": 85,
+     "team": "Brentwood"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Silex",
+     "away": "Brentwood",
+     "drive_h": 1.39
+    },
+    {
+     "home": "Paris with Faith Walk",
+     "away": "Canton",
+     "drive_h": 1.35
+    },
+    {
+     "home": "Clopton",
+     "away": "Sturgeon",
+     "drive_h": 2.02
+    },
+    {
+     "home": "Calvary Lutheran",
+     "away": "Fayette",
+     "drive_h": 1.34
+    }
+   ],
+   "max_drive_h": 2.95
+  },
+  {
+   "district": 11,
+   "teams": [
+    {
+     "seed": 3,
+     "team": "Eugene"
+    },
+    {
+     "seed": 14,
+     "team": "Glasgow"
+    },
+    {
+     "seed": 24,
+     "team": "Russellville"
+    },
+    {
+     "seed": 25,
+     "team": "New Franklin"
+    },
+    {
+     "seed": 39,
+     "team": "Westran"
+    },
+    {
+     "seed": 44,
+     "team": "Louisiana"
+    }
+   ],
+   "byes": [
+    "Eugene",
+    "Glasgow"
+   ],
+   "dqf_games": [
+    {
+     "home": "New Franklin",
+     "away": "Westran",
+     "drive_h": 0.97
+    },
+    {
+     "home": "Russellville",
+     "away": "Louisiana",
+     "drive_h": 2.45
+    }
+   ],
+   "max_drive_h": 2.78
+  },
+  {
+   "district": 12,
+   "teams": [
+    {
+     "seed": 13,
+     "team": "Salisbury"
+    },
+    {
+     "seed": 38,
+     "team": "Schuyler County"
+    },
+    {
+     "seed": 42,
+     "team": "Scotland County"
+    },
+    {
+     "seed": 60,
+     "team": "Putnam County"
+    },
+    {
+     "seed": 74,
+     "team": "Marceline"
+    },
+    {
+     "seed": 84,
+     "team": "Knox County"
+    },
+    {
+     "seed": 111,
+     "team": "Milan"
+    }
+   ],
+   "byes": [
+    "Salisbury"
+   ],
+   "dqf_games": [
+    {
+     "home": "Putnam County",
+     "away": "Marceline",
+     "drive_h": 1.73
+    },
+    {
+     "home": "Schuyler County",
+     "away": "Milan",
+     "drive_h": 1.14
+    },
+    {
+     "home": "Scotland County",
+     "away": "Knox County",
+     "drive_h": 0.65
+    }
+   ],
+   "max_drive_h": 2.72
+  },
+  {
+   "district": 13,
+   "teams": [
+    {
+     "seed": 2,
+     "team": "Hartville"
+    },
+    {
+     "seed": 35,
+     "team": "Blue Eye"
+    },
+    {
+     "seed": 61,
+     "team": "Spokane"
+    },
+    {
+     "seed": 67,
+     "team": "Pleasant Hope"
+    },
+    {
+     "seed": 68,
+     "team": "Macks Creek"
+    },
+    {
+     "seed": 94,
+     "team": "Richland"
+    },
+    {
+     "seed": 100,
+     "team": "Lakeland"
+    }
+   ],
+   "byes": [
+    "Hartville"
+   ],
+   "dqf_games": [
+    {
+     "home": "Pleasant Hope",
+     "away": "Macks Creek",
+     "drive_h": 1.13
+    },
+    {
+     "home": "Blue Eye",
+     "away": "Lakeland",
+     "drive_h": 2.85
+    },
+    {
+     "home": "Spokane",
+     "away": "Richland",
+     "drive_h": 2.15
+    }
+   ],
+   "max_drive_h": 2.93
+  },
+  {
+   "district": 14,
+   "teams": [
+    {
+     "seed": 11,
+     "team": "Crane"
+    },
+    {
+     "seed": 21,
+     "team": "Galena"
+    },
+    {
+     "seed": 49,
+     "team": "Lockwood"
+    },
+    {
+     "seed": 81,
+     "team": "Wheaton"
+    },
+    {
+     "seed": 82,
+     "team": "Purdy"
+    },
+    {
+     "seed": 105,
+     "team": "Exeter"
+    },
+    {
+     "seed": 109,
+     "team": "Verona"
+    }
+   ],
+   "byes": [
+    "Crane"
+   ],
+   "dqf_games": [
+    {
+     "home": "Wheaton",
+     "away": "Purdy",
+     "drive_h": 0.49
+    },
+    {
+     "home": "Galena",
+     "away": "Verona",
+     "drive_h": 0.8
+    },
+    {
+     "home": "Lockwood",
+     "away": "Exeter",
+     "drive_h": 1.69
+    }
+   ],
+   "max_drive_h": 1.69
+  },
+  {
+   "district": 15,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Charleston"
+    },
+    {
+     "seed": 6,
+     "team": "Hayti"
+    },
+    {
+     "seed": 36,
+     "team": "Campbell"
+    },
+    {
+     "seed": 59,
+     "team": "Bloomfield"
+    },
+    {
+     "seed": 70,
+     "team": "Oran"
+    },
+    {
+     "seed": 90,
+     "team": "Holcomb"
+    }
+   ],
+   "byes": [
+    "Charleston",
+    "Hayti"
+   ],
+   "dqf_games": [
+    {
+     "home": "Bloomfield",
+     "away": "Oran",
+     "drive_h": 0.79
+    },
+    {
+     "home": "Campbell",
+     "away": "Holcomb",
+     "drive_h": 0.24
+    }
+   ],
+   "max_drive_h": 1.71
+  },
+  {
+   "district": 16,
+   "teams": [
+    {
+     "seed": 10,
+     "team": "Chaffee"
+    },
+    {
+     "seed": 12,
+     "team": "South Pemiscot"
+    },
+    {
+     "seed": 20,
+     "team": "Senath-Hornersville"
+    },
+    {
+     "seed": 41,
+     "team": "Greenville"
+    },
+    {
+     "seed": 56,
+     "team": "Naylor"
+    },
+    {
+     "seed": 75,
+     "team": "Oak Ridge"
+    }
+   ],
+   "byes": [
+    "Chaffee",
+    "South Pemiscot"
+   ],
+   "dqf_games": [
+    {
+     "home": "Greenville",
+     "away": "Naylor",
+     "drive_h": 1.04
+    },
+    {
+     "home": "Senath-Hornersville",
+     "away": "Oak Ridge",
+     "drive_h": 2.38
+    }
+   ],
+   "max_drive_h": 2.45
+  }
+ ],
+ "sectionals": [
+  {
+   "districts": [
+    1,
+    2
+   ],
+   "max_drive_h": 2.68
+  },
+  {
+   "districts": [
+    3,
+    4
+   ],
+   "max_drive_h": 3.93
+  },
+  {
+   "districts": [
+    5,
+    6
+   ],
+   "max_drive_h": 3.53
+  },
+  {
+   "districts": [
+    7,
+    8
+   ],
+   "max_drive_h": 3.46
+  },
+  {
+   "districts": [
+    9,
+    10
+   ],
+   "max_drive_h": 3.93
+  },
+  {
+   "districts": [
+    11,
+    12
+   ],
+   "max_drive_h": 3.8
+  },
+  {
+   "districts": [
+    13,
+    14
+   ],
+   "max_drive_h": 3.12
+  },
+  {
+   "districts": [
+    15,
+    16
+   ],
+   "max_drive_h": 2.22
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "ideal_seed": 1,
+   "team": "Puxico",
+   "seed": 1
+  },
+  {
+   "line": 2,
+   "ideal_seed": 128,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 3,
+   "ideal_seed": 64,
+   "team": "Valley",
+   "seed": 73
+  },
+  {
+   "line": 4,
+   "ideal_seed": 65,
+   "team": "Bismarck",
+   "seed": 91
+  },
+  {
+   "line": 5,
+   "ideal_seed": 32,
+   "team": "Bernie",
+   "seed": 4
+  },
+  {
+   "line": 6,
+   "ideal_seed": 97,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 7,
+   "ideal_seed": 33,
+   "team": "Neelyville",
+   "seed": 31
+  },
+  {
+   "line": 8,
+   "ideal_seed": 96,
+   "team": "Crystal City",
+   "seed": 99
+  },
+  {
+   "line": 9,
+   "ideal_seed": 16,
+   "team": "South Iron",
+   "seed": 15
+  },
+  {
+   "line": 10,
+   "ideal_seed": 113,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 11,
+   "ideal_seed": 49,
+   "team": "Advance",
+   "seed": 19
+  },
+  {
+   "line": 12,
+   "ideal_seed": 80,
+   "team": "Valle Catholic",
+   "seed": 48
+  },
+  {
+   "line": 13,
+   "ideal_seed": 17,
+   "team": "St. Vincent",
+   "seed": 16
+  },
+  {
+   "line": 14,
+   "ideal_seed": 112,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 15,
+   "ideal_seed": 48,
+   "team": "East Carter",
+   "seed": 18
+  },
+  {
+   "line": 16,
+   "ideal_seed": 81,
+   "team": "Meadow Heights",
+   "seed": 79
+  },
+  {
+   "line": 17,
+   "ideal_seed": 8,
+   "team": "St. Paul Lutheran (Concordia)",
+   "seed": 22
+  },
+  {
+   "line": 18,
+   "ideal_seed": 121,
+   "team": "Smithton",
+   "seed": 104
+  },
+  {
+   "line": 19,
+   "ideal_seed": 57,
+   "team": "Green Ridge",
+   "seed": 55
+  },
+  {
+   "line": 20,
+   "ideal_seed": 72,
+   "team": "Marion C. Early",
+   "seed": 71
+  },
+  {
+   "line": 21,
+   "ideal_seed": 25,
+   "team": "Lincoln",
+   "seed": 28
+  },
+  {
+   "line": 22,
+   "ideal_seed": 104,
+   "team": "Sweet Springs",
+   "seed": 101
+  },
+  {
+   "line": 23,
+   "ideal_seed": 40,
+   "team": "Crest Ridge",
+   "seed": 37
+  },
+  {
+   "line": 24,
+   "ideal_seed": 89,
+   "team": "Crocker",
+   "seed": 89
+  },
+  {
+   "line": 25,
+   "ideal_seed": 9,
+   "team": "Appleton City",
+   "seed": 52
+  },
+  {
+   "line": 26,
+   "ideal_seed": 120,
+   "team": "Midway",
+   "seed": 106
+  },
+  {
+   "line": 27,
+   "ideal_seed": 56,
+   "team": "Academie Lafayette",
+   "seed": 72
+  },
+  {
+   "line": 28,
+   "ideal_seed": 73,
+   "team": "Osceola",
+   "seed": 86
+  },
+  {
+   "line": 29,
+   "ideal_seed": 24,
+   "team": "Thomas Jefferson Independent Day",
+   "seed": 54
+  },
+  {
+   "line": 30,
+   "ideal_seed": 105,
+   "team": "Rich Hill",
+   "seed": 92
+  },
+  {
+   "line": 31,
+   "ideal_seed": 41,
+   "team": "Archie",
+   "seed": 58
+  },
+  {
+   "line": 32,
+   "ideal_seed": 88,
+   "team": "Jasper",
+   "seed": 88
+  },
+  {
+   "line": 33,
+   "ideal_seed": 4,
+   "team": "Penney",
+   "seed": 27
+  },
+  {
+   "line": 34,
+   "ideal_seed": 125,
+   "team": "Frontier School of Excellence Charter",
+   "seed": 102
+  },
+  {
+   "line": 35,
+   "ideal_seed": 61,
+   "team": "Wellington-Napoleon",
+   "seed": 69
+  },
+  {
+   "line": 36,
+   "ideal_seed": 68,
+   "team": "Plattsburg",
+   "seed": 93
+  },
+  {
+   "line": 37,
+   "ideal_seed": 29,
+   "team": "Maysville",
+   "seed": 40
+  },
+  {
+   "line": 38,
+   "ideal_seed": 100,
+   "team": "Santa Fe",
+   "seed": 98
+  },
+  {
+   "line": 39,
+   "ideal_seed": 36,
+   "team": "Albany",
+   "seed": 65
+  },
+  {
+   "line": 40,
+   "ideal_seed": 93,
+   "team": "Polo",
+   "seed": 96
+  },
+  {
+   "line": 41,
+   "ideal_seed": 13,
+   "team": "Gallatin",
+   "seed": 17
+  },
+  {
+   "line": 42,
+   "ideal_seed": 116,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 43,
+   "ideal_seed": 52,
+   "team": "Northland Christian",
+   "seed": 76
+  },
+  {
+   "line": 44,
+   "ideal_seed": 77,
+   "team": "Lutheran (Kansas City)",
+   "seed": 80
+  },
+  {
+   "line": 45,
+   "ideal_seed": 20,
+   "team": "West Nodaway with Nodaway-Holt",
+   "seed": 23
+  },
+  {
+   "line": 46,
+   "ideal_seed": 109,
+   "team": "DeLaSalle Charter (KC)",
+   "seed": 110
+  },
+  {
+   "line": 47,
+   "ideal_seed": 45,
+   "team": "Tarkio with Fairfax",
+   "seed": 47
+  },
+  {
+   "line": 48,
+   "ideal_seed": 84,
+   "team": "St. Joseph Christian",
+   "seed": 87
+  },
+  {
+   "line": 49,
+   "ideal_seed": 5,
+   "team": "Van Buren",
+   "seed": 7
+  },
+  {
+   "line": 50,
+   "ideal_seed": 124,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 51,
+   "ideal_seed": 60,
+   "team": "Fordland",
+   "seed": 30
+  },
+  {
+   "line": 52,
+   "ideal_seed": 69,
+   "team": "Summersville",
+   "seed": 97
+  },
+  {
+   "line": 53,
+   "ideal_seed": 28,
+   "team": "Bakersfield",
+   "seed": 26
+  },
+  {
+   "line": 54,
+   "ideal_seed": 101,
+   "team": "Ellington",
+   "seed": 107
+  },
+  {
+   "line": 55,
+   "ideal_seed": 37,
+   "team": "Alton",
+   "seed": 29
+  },
+  {
+   "line": 56,
+   "ideal_seed": 92,
+   "team": "Dora",
+   "seed": 103
+  },
+  {
+   "line": 57,
+   "ideal_seed": 12,
+   "team": "Mansfield",
+   "seed": 8
+  },
+  {
+   "line": 58,
+   "ideal_seed": 117,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 59,
+   "ideal_seed": 53,
+   "team": "Newburg",
+   "seed": 57
+  },
+  {
+   "line": 60,
+   "ideal_seed": 76,
+   "team": "Winona",
+   "seed": 77
+  },
+  {
+   "line": 61,
+   "ideal_seed": 21,
+   "team": "Norwood",
+   "seed": 9
+  },
+  {
+   "line": 62,
+   "ideal_seed": 108,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 63,
+   "ideal_seed": 44,
+   "team": "Gloria Deo Academy",
+   "seed": 53
+  },
+  {
+   "line": 64,
+   "ideal_seed": 85,
+   "team": "Plato",
+   "seed": 108
+  },
+  {
+   "line": 65,
+   "ideal_seed": 2,
+   "team": "Van-Far",
+   "seed": 32
+  },
+  {
+   "line": 66,
+   "ideal_seed": 127,
+   "team": "Concordia",
+   "seed": 95
+  },
+  {
+   "line": 67,
+   "ideal_seed": 63,
+   "team": "New Bloomfield",
+   "seed": 62
+  },
+  {
+   "line": 68,
+   "ideal_seed": 66,
+   "team": "Slater",
+   "seed": 63
+  },
+  {
+   "line": 69,
+   "ideal_seed": 31,
+   "team": "Tipton",
+   "seed": 33
+  },
+  {
+   "line": 70,
+   "ideal_seed": 98,
+   "team": "New Haven",
+   "seed": 66
+  },
+  {
+   "line": 71,
+   "ideal_seed": 34,
+   "team": "Harrisburg",
+   "seed": 34
+  },
+  {
+   "line": 72,
+   "ideal_seed": 95,
+   "team": "Vienna",
+   "seed": 64
+  },
+  {
+   "line": 73,
+   "ideal_seed": 15,
+   "team": "Silex",
+   "seed": 43
+  },
+  {
+   "line": 74,
+   "ideal_seed": 114,
+   "team": "Brentwood",
+   "seed": 85
+  },
+  {
+   "line": 75,
+   "ideal_seed": 50,
+   "team": "Paris with Faith Walk",
+   "seed": 50
+  },
+  {
+   "line": 76,
+   "ideal_seed": 79,
+   "team": "Canton",
+   "seed": 51
+  },
+  {
+   "line": 77,
+   "ideal_seed": 18,
+   "team": "Clopton",
+   "seed": 45
+  },
+  {
+   "line": 78,
+   "ideal_seed": 111,
+   "team": "Sturgeon",
+   "seed": 83
+  },
+  {
+   "line": 79,
+   "ideal_seed": 47,
+   "team": "Calvary Lutheran",
+   "seed": 46
+  },
+  {
+   "line": 80,
+   "ideal_seed": 82,
+   "team": "Fayette",
+   "seed": 78
+  },
+  {
+   "line": 81,
+   "ideal_seed": 7,
+   "team": "Eugene",
+   "seed": 3
+  },
+  {
+   "line": 82,
+   "ideal_seed": 122,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 83,
+   "ideal_seed": 58,
+   "team": "New Franklin",
+   "seed": 25
+  },
+  {
+   "line": 84,
+   "ideal_seed": 71,
+   "team": "Westran",
+   "seed": 39
+  },
+  {
+   "line": 85,
+   "ideal_seed": 26,
+   "team": "Glasgow",
+   "seed": 14
+  },
+  {
+   "line": 86,
+   "ideal_seed": 103,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 87,
+   "ideal_seed": 39,
+   "team": "Russellville",
+   "seed": 24
+  },
+  {
+   "line": 88,
+   "ideal_seed": 90,
+   "team": "Louisiana",
+   "seed": 44
+  },
+  {
+   "line": 89,
+   "ideal_seed": 10,
+   "team": "Salisbury",
+   "seed": 13
+  },
+  {
+   "line": 90,
+   "ideal_seed": 119,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 91,
+   "ideal_seed": 55,
+   "team": "Putnam County",
+   "seed": 60
+  },
+  {
+   "line": 92,
+   "ideal_seed": 74,
+   "team": "Marceline",
+   "seed": 74
+  },
+  {
+   "line": 93,
+   "ideal_seed": 23,
+   "team": "Schuyler County",
+   "seed": 38
+  },
+  {
+   "line": 94,
+   "ideal_seed": 106,
+   "team": "Milan",
+   "seed": 111
+  },
+  {
+   "line": 95,
+   "ideal_seed": 42,
+   "team": "Scotland County",
+   "seed": 42
+  },
+  {
+   "line": 96,
+   "ideal_seed": 87,
+   "team": "Knox County",
+   "seed": 84
+  },
+  {
+   "line": 97,
+   "ideal_seed": 3,
+   "team": "Hartville",
+   "seed": 2
+  },
+  {
+   "line": 98,
+   "ideal_seed": 126,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 99,
+   "ideal_seed": 62,
+   "team": "Pleasant Hope",
+   "seed": 67
+  },
+  {
+   "line": 100,
+   "ideal_seed": 67,
+   "team": "Macks Creek",
+   "seed": 68
+  },
+  {
+   "line": 101,
+   "ideal_seed": 30,
+   "team": "Blue Eye",
+   "seed": 35
+  },
+  {
+   "line": 102,
+   "ideal_seed": 99,
+   "team": "Lakeland",
+   "seed": 100
+  },
+  {
+   "line": 103,
+   "ideal_seed": 35,
+   "team": "Spokane",
+   "seed": 61
+  },
+  {
+   "line": 104,
+   "ideal_seed": 94,
+   "team": "Richland",
+   "seed": 94
+  },
+  {
+   "line": 105,
+   "ideal_seed": 14,
+   "team": "Crane",
+   "seed": 11
+  },
+  {
+   "line": 106,
+   "ideal_seed": 115,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 107,
+   "ideal_seed": 51,
+   "team": "Wheaton",
+   "seed": 81
+  },
+  {
+   "line": 108,
+   "ideal_seed": 78,
+   "team": "Purdy",
+   "seed": 82
+  },
+  {
+   "line": 109,
+   "ideal_seed": 19,
+   "team": "Galena",
+   "seed": 21
+  },
+  {
+   "line": 110,
+   "ideal_seed": 110,
+   "team": "Verona",
+   "seed": 109
+  },
+  {
+   "line": 111,
+   "ideal_seed": 46,
+   "team": "Lockwood",
+   "seed": 49
+  },
+  {
+   "line": 112,
+   "ideal_seed": 83,
+   "team": "Exeter",
+   "seed": 105
+  },
+  {
+   "line": 113,
+   "ideal_seed": 6,
+   "team": "Charleston",
+   "seed": 5
+  },
+  {
+   "line": 114,
+   "ideal_seed": 123,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 115,
+   "ideal_seed": 59,
+   "team": "Bloomfield",
+   "seed": 59
+  },
+  {
+   "line": 116,
+   "ideal_seed": 70,
+   "team": "Oran",
+   "seed": 70
+  },
+  {
+   "line": 117,
+   "ideal_seed": 27,
+   "team": "Hayti",
+   "seed": 6
+  },
+  {
+   "line": 118,
+   "ideal_seed": 102,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 119,
+   "ideal_seed": 38,
+   "team": "Campbell",
+   "seed": 36
+  },
+  {
+   "line": 120,
+   "ideal_seed": 91,
+   "team": "Holcomb",
+   "seed": 90
+  },
+  {
+   "line": 121,
+   "ideal_seed": 11,
+   "team": "Chaffee",
+   "seed": 10
+  },
+  {
+   "line": 122,
+   "ideal_seed": 118,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 123,
+   "ideal_seed": 54,
+   "team": "Greenville",
+   "seed": 41
+  },
+  {
+   "line": 124,
+   "ideal_seed": 75,
+   "team": "Naylor",
+   "seed": 56
+  },
+  {
+   "line": 125,
+   "ideal_seed": 22,
+   "team": "South Pemiscot",
+   "seed": 12
+  },
+  {
+   "line": 126,
+   "ideal_seed": 107,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 127,
+   "ideal_seed": 43,
+   "team": "Senath-Hornersville",
+   "seed": 20
+  },
+  {
+   "line": 128,
+   "ideal_seed": 86,
+   "team": "Oak Ridge",
+   "seed": 75
+  }
+ ]
+}

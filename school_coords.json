@@ -1,0 +1,739 @@
+{
+ "Crocker": {
+  "lat": 37.954802703739,
+  "lon": -92.263484810629,
+  "source": "census",
+  "matched": "104 SCHOOL ST, CROCKER, MO, 65452",
+  "addr": "104 SCHOOL ST|CROCKER|65452"
+ },
+ "Milan": {
+  "lat": 40.199983267183,
+  "lon": -93.125450703498,
+  "source": "census",
+  "matched": "373 S MARKET ST, MILAN, MO, 63556",
+  "addr": "373 S MARKET ST|MILAN|63556"
+ },
+ "Plattsburg": {
+  "lat": 39.561789796192,
+  "lon": -94.456714814574,
+  "source": "census",
+  "matched": "800 W FROST ST, PLATTSBURG, MO, 64477",
+  "addr": "800 W. FROST STREET|PLATTSBURG|64477"
+ },
+ "Richland": {
+  "lat": 37.859453390613,
+  "lon": -92.390907478294,
+  "source": "census",
+  "matched": "714 E JEFFERSON AVE, RICHLAND, MO, 65556",
+  "addr": "714 E JEFFERSON|RICHLAND|65556"
+ },
+ "Polo": {
+  "lat": 39.550246520617,
+  "lon": -94.042255380373,
+  "source": "census",
+  "matched": "300 SCHOOL ST, POLO, MO, 64671",
+  "addr": "300 W SCHOOL ST|POLO|64671"
+ },
+ "Crystal City": {
+  "lat": 38.230783687113,
+  "lon": -90.378389593545,
+  "source": "census",
+  "matched": "1100 MISSISSIPPI AVE, CRYSTAL CITY, MO, 63019",
+  "addr": "1100 MISSISSIPPI AVE|CRYSTAL CITY|63019"
+ },
+ "South Pemiscot": {
+  "lat": 36.081289848307,
+  "lon": -89.824297723888,
+  "source": "census",
+  "matched": "611 BEASLEY RD, STEELE, MO, 63877",
+  "addr": "611 BEASLEY RD|STEELE|63877"
+ },
+ "Salisbury": {
+  "lat": 39.415222237516,
+  "lon": -92.804474857644,
+  "source": "census",
+  "matched": "1000 S MAPLE AVE, SALISBURY, MO, 65281",
+  "addr": "1000 S MAPLE AVE|SALISBURY|65281"
+ },
+ "Glasgow": {
+  "lat": 39.22939879371,
+  "lon": -92.834384194909,
+  "source": "census",
+  "matched": "860 RANDOLPH ST, GLASGOW, MO, 65254",
+  "addr": "860 RANDOLPH|GLASGOW|65254"
+ },
+ "South Iron": {
+  "lat": 37.359958871019,
+  "lon": -90.69913307513,
+  "source": "census",
+  "matched": "210 SCHOOL ST, ANNAPOLIS, MO, 63620",
+  "addr": "210 SCHOOL ST|ANNAPOLIS|63620"
+ },
+ "St. Vincent": {
+  "lat": 37.723913575973,
+  "lon": -89.874147974482,
+  "source": "census",
+  "matched": "210 S WATERS ST, PERRYVILLE, MO, 63775",
+  "addr": "210 S WATERS ST.|PERRYVILLE|63775"
+ },
+ "Gallatin": {
+  "lat": 39.910438181719,
+  "lon": -93.970814105143,
+  "source": "census",
+  "matched": "602 OLIVE ST, GALLATIN, MO, 64640",
+  "addr": "602 S OLIVE|GALLATIN|64640"
+ },
+ "East Carter": {
+  "lat": 36.931993392341,
+  "lon": -90.746946335333,
+  "source": "census",
+  "matched": "24 S HERREN AVE, ELLSINORE, MO, 63937",
+  "addr": "24 S HERREN AVE|ELLSINORE|63937"
+ },
+ "Puxico": {
+  "lat": 36.952760071883,
+  "lon": -90.154254403577,
+  "source": "census",
+  "matched": "481 N BEDFORD ST, PUXICO, MO, 63960",
+  "addr": "481 N BEDFORD ST|PUXICO|63960"
+ },
+ "Eugene": {
+  "lat": 38.375428479283,
+  "lon": -92.39728741083,
+  "source": "census",
+  "matched": "14803 STATE HWY 17, EUGENE, MO, 65032",
+  "addr": "14803 HWY 17|EUGENE|65032"
+ },
+ "Bernie": {
+  "lat": 36.669296768094,
+  "lon": -89.975047052846,
+  "source": "census",
+  "matched": "516 W MAIN AVE, BERNIE, MO, 63822",
+  "addr": "516 W MAIN|BERNIE|63822"
+ },
+ "Charleston": {
+  "lat": 36.914698031495,
+  "lon": -89.337464533712,
+  "source": "census",
+  "matched": "606 S THORN ST, CHARLESTON, MO, 63834",
+  "addr": "606 S THORN ST|CHARLESTON|63834"
+ },
+ "Hayti": {
+  "lat": 36.23838544528,
+  "lon": -89.747894136268,
+  "source": "census",
+  "matched": "500 N 4TH ST, HAYTI, MO, 63851",
+  "addr": "500 N 4TH ST|HAYTI|63851"
+ },
+ "Norwood": {
+  "lat": 37.112641506826,
+  "lon": -92.417299894327,
+  "source": "census",
+  "matched": "675 N HAWK AVE, NORWOOD, MO, 65717",
+  "addr": "675 N HAWK AVE|NORWOOD|65717"
+ },
+ "Chaffee": {
+  "lat": 37.183133652222,
+  "lon": -89.664244301813,
+  "source": "census",
+  "matched": "517 W YOAKUM AVE, CHAFFEE, MO, 63740",
+  "addr": "517 W YOAKUM AVE|CHAFFEE|63740"
+ },
+ "St. Paul Lutheran (Concordia)": {
+  "lat": 38.987449398998,
+  "lon": -93.567917577232,
+  "source": "census",
+  "matched": "205 S MAIN ST, CONCORDIA, MO, 64020",
+  "addr": "205 S MAIN ST|CONCORDIA|64020"
+ },
+ "Russellville": {
+  "lat": 38.508668980923,
+  "lon": -92.447807778178,
+  "source": "census",
+  "matched": "13600 RTE C, RUSSELLVILLE, MO, 65074",
+  "addr": "13600 RTE C|RUSSELLVILLE|65074"
+ },
+ "New Franklin": {
+  "lat": 39.017803167507,
+  "lon": -92.742769608527,
+  "source": "census",
+  "matched": "412 W BROADWAY, NEW FRANKLIN, MO, 65274",
+  "addr": "412 WEST BROADWAY|NEW FRANKLIN|65274"
+ },
+ "Penney": {
+  "lat": 39.752667786888,
+  "lon": -93.998261777975,
+  "source": "census",
+  "matched": "903 N DAVIS ST, HAMILTON, MO, 64644",
+  "addr": "903 N DAVIS ST|HAMILTON|64644"
+ },
+ "Lincoln": {
+  "lat": 38.392964286815,
+  "lon": -93.33691911459,
+  "source": "census",
+  "matched": "101 W LAMINE ST, LINCOLN, MO, 65338",
+  "addr": "101 W LAMINE ST #39|LINCOLN|65338"
+ },
+ "Alton": {
+  "lat": 36.690818542432,
+  "lon": -91.400344408422,
+  "source": "census",
+  "matched": "505 SCHOOL, ALTON, MO, 65606",
+  "addr": "505 SCHOOL STREET|ALTON|65606"
+ },
+ "Fordland": {
+  "lat": 37.160568044474,
+  "lon": -92.953294265942,
+  "source": "census",
+  "matched": "1248 SCHOOL ST, FORDLAND, MO, 65652",
+  "addr": "1248 SCHOOL ST.|FORDLAND|65652"
+ },
+ "Van-Far": {
+  "lat": 39.301033778992,
+  "lon": -91.507842525723,
+  "source": "census",
+  "matched": "2200 W US HWY 54, VANDALIA, MO, 63382",
+  "addr": "2200 US HWY 54|VANDALIA|63382"
+ },
+ "Tipton": {
+  "lat": 38.650399807272,
+  "lon": -92.776114186525,
+  "source": "census",
+  "matched": "334 US HWY 50, TIPTON, MO, 65081",
+  "addr": "334 US HIGHWAY 50 WEST|TIPTON|65081"
+ },
+ "Harrisburg": {
+  "lat": 39.135614520711,
+  "lon": -92.462416149069,
+  "source": "census",
+  "matched": "801 S HARRIS ST, HARRISBURG, MO, 65256",
+  "addr": "801 S HARRIS|HARRISBURG|65256"
+ },
+ "Campbell": {
+  "lat": 36.499478421308,
+  "lon": -90.077009003702,
+  "source": "census",
+  "matched": "801 STATE HWY 53, CAMPBELL, MO, 63933",
+  "addr": "801 S STATE RTE 53|CAMPBELL|63933"
+ },
+ "Crest Ridge": {
+  "lat": 38.750149794103,
+  "lon": -93.840080406377,
+  "source": "census",
+  "matched": "92 SW STATE HWY 58, CENTERVIEW, MO, 64019",
+  "addr": "92 HWY 58|CENTERVIEW|64019"
+ },
+ "Maysville": {
+  "lat": 39.889599287234,
+  "lon": -94.364297365692,
+  "source": "census",
+  "matched": "601 W MAIN ST, MAYSVILLE, MO, 64469",
+  "addr": "601 W MAIN ST|MAYSVILLE|64469"
+ },
+ "Louisiana": {
+  "lat": 39.432780353555,
+  "lon": -91.07129669176,
+  "source": "census",
+  "matched": "3321 GEORGIA ST, LOUISIANA, MO, 63353",
+  "addr": "3321 W GEORGIA ST|LOUISIANA|63353"
+ },
+ "Clopton": {
+  "lat": 39.292314180909,
+  "lon": -90.945986823818,
+  "source": "census",
+  "matched": "28176 HWY WW, CLARKSVILLE, MO, 63336",
+  "addr": "28176 HWY WW|CLARKSVILLE|63336"
+ },
+ "Calvary Lutheran": {
+  "lat": 38.535277987534,
+  "lon": -92.185797394556,
+  "source": "census",
+  "matched": "2525 RTE B, JEFFERSON CITY, MO, 65101",
+  "addr": "2525 ROUTE B|JEFFERSON CITY|65101"
+ },
+ "Tarkio with Fairfax": {
+  "lat": 40.439056771886,
+  "lon": -95.388852372765,
+  "source": "census",
+  "matched": "312 S 11TH ST, TARKIO, MO, 64491",
+  "addr": "312 S ELEVENTH ST|TARKIO|64491"
+ },
+ "Valle Catholic": {
+  "lat": 37.979883238371,
+  "lon": -90.047743705644,
+  "source": "census",
+  "matched": "40 N 4TH ST, STE GENEVIEVE, MO, 63670",
+  "addr": "40 N 4TH ST.|STE. GENEVIEVE|63670"
+ },
+ "Lockwood": {
+  "lat": 37.390047071788,
+  "lon": -93.95778618634,
+  "source": "census",
+  "matched": "400 W 4TH ST, LOCKWOOD, MO, 65682",
+  "addr": "400 W 4TH ST|LOCKWOOD|65682"
+ },
+ "Paris with Faith Walk": {
+  "lat": 39.514684513856,
+  "lon": -91.947978178435,
+  "source": "census",
+  "matched": "25686 US HWY 24, PARIS, MO, 65275",
+  "addr": "25686 BUS HWY 24|PARIS|65275"
+ },
+ "Canton": {
+  "lat": 40.129333379526,
+  "lon": -91.518590553058,
+  "source": "census",
+  "matched": "200 S 4TH ST, CANTON, MO, 63435",
+  "addr": "200 S FOURTH ST|CANTON|63435"
+ },
+ "Appleton City": {
+  "lat": 38.190600159187,
+  "lon": -94.034086902281,
+  "source": "census",
+  "matched": "408 W 4TH ST, APPLETON CITY, MO, 64724",
+  "addr": "408 W 4TH|APPLETON CITY|64724"
+ },
+ "Gloria Deo Academy": {
+  "lat": 37.157161419633,
+  "lon": -93.341249815418,
+  "source": "census",
+  "matched": "3146 S GOLDEN AVE, SPRINGFIELD, MO, 65807",
+  "addr": "3146 S GOLDEN AVE|SPRINGFIELD|65807"
+ },
+ "Thomas Jefferson Independent Day": {
+  "lat": 37.098202298524,
+  "lon": -94.470291780422,
+  "source": "census",
+  "matched": "3401 NEWMAN RD, JOPLIN, MO, 64801",
+  "addr": "3401 NEWMAN RD|JOPLIN|64801"
+ },
+ "Archie": {
+  "lat": 38.483407610453,
+  "lon": -94.356224834624,
+  "source": "census",
+  "matched": "302 W STATE HWY A, ARCHIE, MO, 64725",
+  "addr": "302 W STATE RTE A|ARCHIE|64725"
+ },
+ "Bloomfield": {
+  "lat": 36.884850639062,
+  "lon": -89.933858247628,
+  "source": "census",
+  "matched": "505 W COURT ST, BLOOMFIELD, MO, 63825",
+  "addr": "505 COURT ST|BLOOMFIELD|63825"
+ },
+ "Putnam County": {
+  "lat": 40.467020201731,
+  "lon": -93.006846728429,
+  "source": "census",
+  "matched": "803 S 20TH ST, UNIONVILLE, MO, 63565",
+  "addr": "803 S 20TH|UNIONVILLE|63565"
+ },
+ "New Bloomfield": {
+  "lat": 38.720197840558,
+  "lon": -92.086659993175,
+  "source": "census",
+  "matched": "307 REDWOOD DR, NEW BLOOMFIELD, MO, 65063",
+  "addr": "307 REDWOOD DR|NEW BLOOMFIELD|65063"
+ },
+ "Slater": {
+  "lat": 39.223177898384,
+  "lon": -93.064300338084,
+  "source": "census",
+  "matched": "515 ELM ST, SLATER, MO, 65349",
+  "addr": "515 N ELM|SLATER|65349"
+ },
+ "Albany": {
+  "lat": 40.250742016808,
+  "lon": -94.332741335112,
+  "source": "census",
+  "matched": "101 W JEFFERSON ST, ALBANY, MO, 64402",
+  "addr": "101 W JEFFERSON ST|ALBANY|64402"
+ },
+ "New Haven": {
+  "lat": 38.599150244473,
+  "lon": -91.230530265508,
+  "source": "census",
+  "matched": "100 PARK DR, NEW HAVEN, MO, 63068",
+  "addr": "100 PARK DRIVE|NEW HAVEN|63068"
+ },
+ "Pleasant Hope": {
+  "lat": 37.462976214211,
+  "lon": -93.272982363553,
+  "source": "census",
+  "matched": "100 W COWDEN ST, PLEASANT HOPE, MO, 65725",
+  "addr": "100 W. COWDEN|PLEASANT HOPE|65725"
+ },
+ "Macks Creek": {
+  "lat": 37.96984722721,
+  "lon": -92.966824263737,
+  "source": "census",
+  "matched": "245 STATE HWY N, MACKS CREEK, MO, 65786",
+  "addr": "245 STATE RD N|MACKS CREEK|65786"
+ },
+ "Marion C. Early": {
+  "lat": 37.478611099441,
+  "lon": -93.427959947426,
+  "source": "census",
+  "matched": "5309 S MAIN AVE, MORRISVILLE, MO, 65710",
+  "addr": "5309 S MAIN|MORRISVILLE|65710"
+ },
+ "Academie Lafayette": {
+  "lat": 39.063643062249,
+  "lon": -94.583261771861,
+  "source": "census",
+  "matched": "201 E ARMOUR BLVD, KANSAS CITY, MO, 64111",
+  "addr": "201 EAST ARMOUR BOULEVARD|KANSAS CITY|64113"
+ },
+ "Marceline": {
+  "lat": 39.715181746682,
+  "lon": -92.945228506358,
+  "source": "census",
+  "matched": "314 E SANTA FE AVE, MARCELINE, MO, 64658",
+  "addr": "314 E SANTA FE AVE|MARCELINE|64658"
+ },
+ "Oak Ridge": {
+  "lat": 37.501455052656,
+  "lon": -89.732116034502,
+  "source": "census",
+  "matched": "4198 STATE HWY E, OAK RIDGE, MO, 63769",
+  "addr": "4198 STATE HWY E|OAK RIDGE|63769"
+ },
+ "Fayette": {
+  "lat": 39.139632147113,
+  "lon": -92.689131449411,
+  "source": "census",
+  "matched": "510 S CLEVELAND AVE, FAYETTE, MO, 65248",
+  "addr": "510 CLEVELAND AVE|FAYETTE|65248"
+ },
+ "Meadow Heights": {
+  "lat": 37.513342791324,
+  "lon": -89.979380728211,
+  "source": "census",
+  "matched": "14571 STATE HWY 72, PATTON, MO, 63662",
+  "addr": "14571 STATE HIGHWAY 72|PATTON|63662"
+ },
+ "Lutheran (Kansas City)": {
+  "lat": 38.902797415852,
+  "lon": -94.594268741053,
+  "source": "census",
+  "matched": "12411 WORNALL RD, KANSAS CITY, MO, 64145",
+  "addr": "12411 WORNALL RD|KANSAS CITY|64145"
+ },
+ "Frontier School of Excellence Charter": {
+  "lat": 39.0252491646,
+  "lon": -94.573828453027,
+  "source": "census",
+  "matched": "5605 TROOST AVE, KANSAS CITY, MO, 64110",
+  "addr": "5605 TROOST AVE|KANSAS CITY|64110"
+ },
+ "Dora": {
+  "lat": 36.776133057921,
+  "lon": -92.217038961881,
+  "source": "census",
+  "matched": "613 CO RD 379, DORA, MO, 65637",
+  "addr": "613 COUNTY ROAD 379|DORA|65637"
+ },
+ "Smithton": {
+  "lat": 38.67857351143,
+  "lon": -93.093114850472,
+  "source": "census",
+  "matched": "505 MYRTLE AVE, SMITHTON, MO, 65350",
+  "addr": "505 S MYRTLE|SMITHTON|65350"
+ },
+ "Exeter": {
+  "lat": 36.673967157556,
+  "lon": -93.938657527399,
+  "source": "census",
+  "matched": "101 LOCUST ST, EXETER, MO, 65647",
+  "addr": "101 LOCUST STREET|EXETER|65647"
+ },
+ "Sturgeon": {
+  "lat": 39.232920238785,
+  "lon": -92.282443074799,
+  "source": "census",
+  "matched": "210 W PATTON ST, STURGEON, MO, 65284",
+  "addr": "210 W PATTON ST|STURGEON|65284"
+ },
+ "DeLaSalle Charter (KC)": {
+  "lat": 39.058551700589,
+  "lon": -94.571903717868,
+  "source": "census",
+  "matched": "3737 TROOST AVE, KANSAS CITY, MO, 64109",
+  "addr": "3737 TROOST AVE|KANSAS CITY|64109"
+ },
+ "Knox County": {
+  "lat": 40.168196673657,
+  "lon": -92.147438531152,
+  "source": "census",
+  "matched": "55701 STATE HWY 6, EDINA, MO, 63537",
+  "addr": "55701 STATE HWY 6|EDINA|63537"
+ },
+ "Brentwood": {
+  "lat": 38.621566442796,
+  "lon": -90.353030043968,
+  "source": "census",
+  "matched": "2221 HIGH SCHOOL DR, BRENTWOOD, MO, 63144",
+  "addr": "2221 HIGH SCHOOL DR|BRENTWOOD|63144"
+ },
+ "Osceola": {
+  "lat": 38.019880549298,
+  "lon": -93.698257056694,
+  "source": "census",
+  "matched": "76 STATE HWY WW, OSCEOLA, MO, 64776",
+  "addr": "76 SE HWY WW|OSCEOLA|64776"
+ },
+ "St. Joseph Christian": {
+  "lat": 39.792186613697,
+  "lon": -94.770190296829,
+  "source": "census",
+  "matched": "5401B GENE FIELD RD, SAINT JOSEPH, MO, 64506",
+  "addr": "5401B GENE FIELD RD|ST. JOSEPH|64506"
+ },
+ "Jasper": {
+  "lat": 37.339913835382,
+  "lon": -94.303186957873,
+  "source": "census",
+  "matched": "201 W MERCER ST, JASPER, MO, 64755",
+  "addr": "201 W MERCER|JASPER|64755"
+ },
+ "Hartville": {
+  "lat": 37.2735,
+  "lon": -92.5181,
+  "source": "zip_center",
+  "addr": "PO BOX 460|HARTVILLE|65667"
+ },
+ "Van Buren": {
+  "lat": 37.0015,
+  "lon": -91.0007,
+  "source": "zip_center",
+  "addr": "PO BOX 550|VAN BUREN|63965"
+ },
+ "Mansfield": {
+  "lat": 37.1273,
+  "lon": -92.5936,
+  "source": "zip_center",
+  "addr": "315 W OHIO ST|MANSFIELD|65704"
+ },
+ "Crane": {
+  "lat": 36.9258,
+  "lon": -93.5303,
+  "source": "zip_center",
+  "addr": "PO BOX 405|CRANE|65633"
+ },
+ "Advance": {
+  "lat": 37.0922,
+  "lon": -89.9106,
+  "source": "zip_center",
+  "addr": "201 SCHOOL STREET|ADVANCE|63730"
+ },
+ "Senath-Hornersville": {
+  "lat": 36.1324,
+  "lon": -90.1632,
+  "source": "zip_center",
+  "addr": "PO BOX 370|SENATH|63876"
+ },
+ "Galena": {
+  "lat": 36.8198,
+  "lon": -93.4811,
+  "source": "zip_center",
+  "addr": "PO BOX 286|GALENA|65656"
+ },
+ "West Nodaway with Nodaway-Holt": {
+  "lat": 40.4475,
+  "lon": -95.063,
+  "source": "zip_center",
+  "addr": "PO BOX 260|BURLINGTON JCT|64428"
+ },
+ "Bakersfield": {
+  "lat": 36.5332,
+  "lon": -92.1507,
+  "source": "zip_center",
+  "addr": "PO BOX 38|BAKERSFIELD|65609"
+ },
+ "Neelyville": {
+  "lat": 36.571,
+  "lon": -90.4995,
+  "source": "zip_center",
+  "addr": "PO BOX 8|NEELYVILLE|63954"
+ },
+ "Blue Eye": {
+  "lat": 36.5493,
+  "lon": -93.3388,
+  "source": "zip_center",
+  "addr": "PO BOX 105|BLUE EYE|65611"
+ },
+ "Schuyler County": {
+  "lat": 40.4152,
+  "lon": -92.5663,
+  "source": "zip_center",
+  "addr": "21701 HIGHWAY 63|QUEEN CITY|63561"
+ },
+ "Westran": {
+  "lat": 39.4354,
+  "lon": -92.553,
+  "source": "zip_center",
+  "addr": "601 HORNET LN|HUNTSVILLE|65259"
+ },
+ "Greenville": {
+  "lat": 37.1108,
+  "lon": -90.4514,
+  "source": "zip_center",
+  "addr": "PO BOX 320|GREENVILLE|63944"
+ },
+ "Scotland County": {
+  "lat": 40.4619,
+  "lon": -92.1851,
+  "source": "zip_center",
+  "addr": "606 LOVERS LN|MEMPHIS|63555"
+ },
+ "Silex": {
+  "lat": 39.1166,
+  "lon": -91.037,
+  "source": "zip_center",
+  "addr": "PO BOX 46|SILEX|63377"
+ },
+ "Green Ridge": {
+  "lat": 38.619,
+  "lon": -93.4374,
+  "source": "zip_center",
+  "addr": "PO BOX 70|GREEN RIDGE|65332"
+ },
+ "Naylor": {
+  "lat": 36.5843,
+  "lon": -90.6124,
+  "source": "zip_center",
+  "addr": "301 E BATTEN ST|NAYLOR|63953"
+ },
+ "Newburg": {
+  "lat": 37.9008,
+  "lon": -91.8807,
+  "source": "zip_center",
+  "addr": "PO BOX C|NEWBURG|65550"
+ },
+ "Spokane": {
+  "lat": 36.8636,
+  "lon": -93.2754,
+  "source": "zip_center",
+  "addr": "PO BOX 218|SPOKANE|65754"
+ },
+ "Vienna": {
+  "lat": 38.1919,
+  "lon": -91.9422,
+  "source": "zip_center",
+  "addr": "PO BOX 218|VIENNA|65582"
+ },
+ "Wellington-Napoleon": {
+  "lat": 39.1258,
+  "lon": -93.9855,
+  "source": "zip_center",
+  "addr": "PO BOX 280|WELLINGTON|64097"
+ },
+ "Oran": {
+  "lat": 37.087,
+  "lon": -89.6734,
+  "source": "zip_center",
+  "addr": "PO BOX 250|ORAN|63771"
+ },
+ "Valley": {
+  "lat": 37.7639,
+  "lon": -90.7409,
+  "source": "zip_center",
+  "addr": "1 VIKING DR|CALEDONIA|63631"
+ },
+ "Northland Christian": {
+  "lat": 39.2898,
+  "lon": -94.5669,
+  "source": "zip_center",
+  "addr": "10500 NORTH TRAILBLAZER DR.|KANSAS CITY|64155"
+ },
+ "Winona": {
+  "lat": 37.0169,
+  "lon": -91.3121,
+  "source": "zip_center",
+  "addr": "PO BOX 248|WINONA|65588"
+ },
+ "Wheaton": {
+  "lat": 36.7651,
+  "lon": -94.0492,
+  "source": "zip_center",
+  "addr": "PO BOX 249|WHEATON|64874"
+ },
+ "Purdy": {
+  "lat": 36.8069,
+  "lon": -93.9164,
+  "source": "zip_center",
+  "addr": "PO BOX 248|PURDY|65734"
+ },
+ "Holcomb": {
+  "lat": 36.3885,
+  "lon": -90.0208,
+  "source": "zip_center",
+  "addr": "PO BOX 190|HOLCOMB|63852"
+ },
+ "Bismarck": {
+  "lat": 37.7539,
+  "lon": -90.5984,
+  "source": "zip_center",
+  "addr": "PO BOX 257|BISMARCK|63624"
+ },
+ "Rich Hill": {
+  "lat": 38.0944,
+  "lon": -94.3635,
+  "source": "zip_center",
+  "addr": "703 N THIRD|RICH HILL|64779"
+ },
+ "Concordia": {
+  "lat": 38.9776,
+  "lon": -93.5812,
+  "source": "zip_center",
+  "addr": "PO BOX 879|CONCORDIA|64020"
+ },
+ "Summersville": {
+  "lat": 37.1484,
+  "lon": -91.6828,
+  "source": "zip_center",
+  "addr": "PO BOX 198|SUMMERSVILLE|65571"
+ },
+ "Santa Fe": {
+  "lat": 39.1048,
+  "lon": -93.5429,
+  "source": "zip_center",
+  "addr": "PO BOX 197|ALMA|64001"
+ },
+ "Lakeland": {
+  "lat": 38.2432,
+  "lon": -93.7303,
+  "source": "zip_center",
+  "addr": "12530 LAKELAND SCHOOL DR|DEEPWATER|64740"
+ },
+ "Sweet Springs": {
+  "lat": 38.966,
+  "lon": -93.4247,
+  "source": "zip_center",
+  "addr": "600 E. MARSHALL ST.|SWEET SPRINGS|65351"
+ },
+ "Midway": {
+  "lat": 38.6898,
+  "lon": -94.5695,
+  "source": "zip_center",
+  "addr": "5801 E STATE RTE 2|CLEVELAND|64734"
+ },
+ "Ellington": {
+  "lat": 37.2398,
+  "lon": -90.9589,
+  "source": "zip_center",
+  "addr": "1 SCHOOL ST|ELLINGTON|63638"
+ },
+ "Plato": {
+  "lat": 37.5122,
+  "lon": -92.1709,
+  "source": "zip_center",
+  "addr": "PO BOX A|PLATO|65552"
+ },
+ "Verona": {
+  "lat": 36.937,
+  "lon": -93.8005,
+  "source": "zip_center",
+  "addr": "PO BOX 7|VERONA|65769"
+ }
+}
