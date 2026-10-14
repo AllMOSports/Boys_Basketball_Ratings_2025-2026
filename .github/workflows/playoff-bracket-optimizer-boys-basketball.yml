@@ -1,0 +1,97 @@
+name: Playoff Bracket Optimizer - Boys Basketball
+ 
+on:
+  workflow_dispatch:
+    inputs:
+      classes:
+        description: "Classes to build (comma-separated)"
+        default: "1,2,3,4,5,6"
+        required: true
+      season:
+        description: "Season year in the ratings history file (2025 = 2025-26). Blank = latest"
+        default: "2025"
+        required: false
+      bye_rule:
+        description: "statewide = top seeds statewide get byes; district = each district's top seeds get its byes"
+        type: choice
+        options: [district, statewide]
+        default: district
+      h2h_jumps:
+        description: "Apply the head-to-head jump rule to seeds"
+        type: boolean
+        default: true
+      games_through:
+        description: "Only use games on/before this date for head-to-head (YYYY-MM-DD, e.g. last regular-season day). Blank = all games"
+        default: ""
+        required: false
+      district_limit:
+        description: "Max drive (hours) between any two teams in a district"
+        default: "3.0"
+        required: true
+      next_limit:
+        description: "Max drive (hours) for the first round after districts (Sectional for 16-district classes, Quarterfinal for 8)"
+        default: "4.0"
+        required: true
+      drive_factor:
+        description: "Multiply OSRM drive times by this before checking limits (1.0 = raw OSRM)"
+        default: "1.0"
+        required: true
+      time_limit:
+        description: "Solver seconds per class"
+        default: "600"
+        required: true
+ 
+permissions:
+  contents: write
+ 
+concurrency:
+  group: playoff-bracket-optimizer
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - name: Check out All_MO_Sports-Data (ratings + schedules)
+        uses: actions/checkout@v4
+        with:
+          repository: AllMOSports/All_MO_Sports-Data
+          path: mo-data
+          sparse-checkout: output   # only the ratings/schedule folder, skips logos etc.
+ 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      - name: Install dependencies
+        run: pip install ortools requests
+ 
+      - name: Build brackets
+        run: >
+          python playoff_bracket_optimizer.py
+          --sport boys_basketball
+          --classes "${{ inputs.classes }}"
+          --bye-rule "${{ inputs.bye_rule }}"
+          --district-limit "${{ inputs.district_limit }}"
+          --next-limit "${{ inputs.next_limit }}"
+          --factor "${{ inputs.drive_factor }}"
+          --time-limit "${{ inputs.time_limit }}"
+          ${{ inputs.season != '' && format('--season {0}', inputs.season) || '' }}
+          ${{ inputs.games_through != '' && format('--games-through {0}', inputs.games_through) || '' }}
+          ${{ inputs.h2h_jumps == false && '--no-jumps' || '' }}
+ 
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add school_coords.json drive_times playoff_brackets_boys_basketball
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update boys basketball travel-limited playoff brackets [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
