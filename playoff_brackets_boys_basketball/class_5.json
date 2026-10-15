@@ -1,0 +1,1648 @@
+{
+ "sport": "boys_basketball",
+ "season": 2025,
+ "class": 5,
+ "teams": 64,
+ "bracket_lines": 64,
+ "districts_count": 8,
+ "rounds": [
+  "District Quarterfinal",
+  "District Semifinal",
+  "District Championship",
+  "Quarterfinal",
+  "Semifinal",
+  "Championship"
+ ],
+ "byes": 0,
+ "bye_rule": "district",
+ "reseed": true,
+ "priority": "balance",
+ "weights": {
+  "top": 5000,
+  "pairs": 40,
+  "tiers": 200,
+  "travel": 1
+ },
+ "drive_time_factor": 1.0,
+ "limits_hours": {
+  "district_rounds": 3.0,
+  "quarterfinal": null
+ },
+ "solver_status": "stage1 OPTIMAL, stage2 FEASIBLE",
+ "violations_proven_minimum": true,
+ "minutes_over_limit_score": 191,
+ "travel_allowance_used": 254,
+ "solve_seconds": 435.2,
+ "violations": [
+  {
+   "team_a": "Holt",
+   "team_b": "Lebanon",
+   "round": "District rounds",
+   "hours": 3.03
+  },
+  {
+   "team_a": "Holt",
+   "team_b": "Warrensburg",
+   "round": "District rounds",
+   "hours": 3.44
+  },
+  {
+   "team_a": "Carl Junction",
+   "team_b": "West Plains",
+   "round": "District rounds",
+   "hours": 3.64
+  },
+  {
+   "team_a": "West Plains",
+   "team_b": "McDonald County",
+   "round": "District rounds",
+   "hours": 3.88
+  }
+ ],
+ "scorecard": {
+  "chalk_district_game_avg_min": 53.9,
+  "chalk_district_game_max_min": 175.0,
+  "chalk_district_games_over_limit": 0,
+  "chalk_next_round_max_min": 443.9,
+  "expected_district_game_min": 55.6,
+  "expected_next_round_game_min": 268.5,
+  "p_any_district_game_over_limit": 0.184,
+  "top_seed_pairs_same_district": 2,
+  "strong_pairs_same_district": 9,
+  "weakest_district_best_seed": 13,
+  "district_best_rating_sd": 6.89,
+  "exp_top8_in_quarterfinals": 5.01,
+  "exp_top4_in_final_four": 2.56,
+  "p_1_vs_2_final": 0.258,
+  "p_top_seed_champion": 0.303
+ },
+ "mshsaa_scorecard": {
+  "chalk_district_game_avg_min": 51.1,
+  "chalk_district_game_max_min": 212.4,
+  "chalk_district_games_over_limit": 1,
+  "chalk_next_round_max_min": 157.3,
+  "expected_district_game_min": 51.1,
+  "expected_next_round_game_min": 97.7,
+  "p_any_district_game_over_limit": 0.856,
+  "top_seed_pairs_same_district": 4,
+  "strong_pairs_same_district": 10,
+  "weakest_district_best_seed": 11,
+  "district_best_rating_sd": 7.03,
+  "exp_top8_in_quarterfinals": 4.24,
+  "exp_top4_in_final_four": 1.72,
+  "p_1_vs_2_final": 0.0,
+  "p_top_seed_champion": 0.25
+ },
+ "mshsaa_note": null,
+ "seeds": [
+  {
+   "seed": 1,
+   "team": "Vianney",
+   "ovr_rating": 47.18,
+   "rating_rank": 1
+  },
+  {
+   "seed": 2,
+   "team": "MICDS",
+   "ovr_rating": 46.1,
+   "rating_rank": 2
+  },
+  {
+   "seed": 3,
+   "team": "Webster Groves",
+   "ovr_rating": 43.38,
+   "rating_rank": 3
+  },
+  {
+   "seed": 4,
+   "team": "Sikeston",
+   "ovr_rating": 42.15,
+   "rating_rank": 4
+  },
+  {
+   "seed": 5,
+   "team": "Westminster Christian Academy",
+   "ovr_rating": 41.2,
+   "rating_rank": 5
+  },
+  {
+   "seed": 6,
+   "team": "McCluer North",
+   "ovr_rating": 35.96,
+   "rating_rank": 6
+  },
+  {
+   "seed": 7,
+   "team": "Helias Catholic",
+   "ovr_rating": 35.67,
+   "rating_rank": 7
+  },
+  {
+   "seed": 8,
+   "team": "Kearney",
+   "ovr_rating": 31.4,
+   "rating_rank": 8
+  },
+  {
+   "seed": 9,
+   "team": "Hillcrest",
+   "ovr_rating": 31.12,
+   "rating_rank": 9
+  },
+  {
+   "seed": 10,
+   "team": "Raytown South",
+   "ovr_rating": 29.94,
+   "rating_rank": 10
+  },
+  {
+   "seed": 11,
+   "team": "Ft. Zumwalt South",
+   "ovr_rating": 28.82,
+   "rating_rank": 11
+  },
+  {
+   "seed": 12,
+   "team": "Holt",
+   "ovr_rating": 28.44,
+   "rating_rank": 12
+  },
+  {
+   "seed": 13,
+   "team": "Van Horn",
+   "ovr_rating": 27.68,
+   "rating_rank": 13
+  },
+  {
+   "seed": 14,
+   "team": "Raytown",
+   "ovr_rating": 27.61,
+   "rating_rank": 14
+  },
+  {
+   "seed": 15,
+   "team": "Lincoln College Prep",
+   "ovr_rating": 27.4,
+   "rating_rank": 15
+  },
+  {
+   "seed": 16,
+   "team": "Willard",
+   "ovr_rating": 26.99,
+   "rating_rank": 16
+  },
+  {
+   "seed": 17,
+   "team": "Winnetonka",
+   "ovr_rating": 26.92,
+   "rating_rank": 17
+  },
+  {
+   "seed": 18,
+   "team": "Pembroke Hill",
+   "ovr_rating": 26.68,
+   "rating_rank": 18
+  },
+  {
+   "seed": 19,
+   "team": "Grandview",
+   "ovr_rating": 25.7,
+   "rating_rank": 19
+  },
+  {
+   "seed": 20,
+   "team": "Farmington",
+   "ovr_rating": 25.1,
+   "rating_rank": 20
+  },
+  {
+   "seed": 21,
+   "team": "Belton",
+   "ovr_rating": 24.9,
+   "rating_rank": 21
+  },
+  {
+   "seed": 22,
+   "team": "Carl Junction",
+   "ovr_rating": 24.27,
+   "rating_rank": 22
+  },
+  {
+   "seed": 23,
+   "team": "Parkway Central",
+   "ovr_rating": 24.22,
+   "rating_rank": 23
+  },
+  {
+   "seed": 24,
+   "team": "Webb City",
+   "ovr_rating": 24.19,
+   "rating_rank": 24
+  },
+  {
+   "seed": 25,
+   "team": "Capital City",
+   "ovr_rating": 23.39,
+   "rating_rank": 25
+  },
+  {
+   "seed": 26,
+   "team": "Hazelwood East",
+   "ovr_rating": 22.87,
+   "rating_rank": 26
+  },
+  {
+   "seed": 27,
+   "team": "West Plains",
+   "ovr_rating": 21.88,
+   "rating_rank": 27
+  },
+  {
+   "seed": 28,
+   "team": "Parkway North",
+   "ovr_rating": 21.58,
+   "rating_rank": 28
+  },
+  {
+   "seed": 29,
+   "team": "University City",
+   "ovr_rating": 21.58,
+   "rating_rank": 29
+  },
+  {
+   "seed": 30,
+   "team": "Ladue Horton Watkins",
+   "ovr_rating": 21.56,
+   "rating_rank": 30
+  },
+  {
+   "seed": 31,
+   "team": "Festus",
+   "ovr_rating": 21.17,
+   "rating_rank": 31
+  },
+  {
+   "seed": 32,
+   "team": "Rockwood Summit",
+   "ovr_rating": 20.15,
+   "rating_rank": 32
+  },
+  {
+   "seed": 33,
+   "team": "Ruskin",
+   "ovr_rating": 19.93,
+   "rating_rank": 33
+  },
+  {
+   "seed": 34,
+   "team": "Parkview",
+   "ovr_rating": 17.67,
+   "rating_rank": 34
+  },
+  {
+   "seed": 35,
+   "team": "Jefferson City",
+   "ovr_rating": 16.97,
+   "rating_rank": 35
+  },
+  {
+   "seed": 36,
+   "team": "John Burroughs",
+   "ovr_rating": 16.77,
+   "rating_rank": 36
+  },
+  {
+   "seed": 37,
+   "team": "Lutheran South",
+   "ovr_rating": 16.07,
+   "rating_rank": 37
+  },
+  {
+   "seed": 38,
+   "team": "Central (Springfield)",
+   "ovr_rating": 16.06,
+   "rating_rank": 38
+  },
+  {
+   "seed": 39,
+   "team": "Washington",
+   "ovr_rating": 15.73,
+   "rating_rank": 39
+  },
+  {
+   "seed": 40,
+   "team": "Father Tolton",
+   "ovr_rating": 12.86,
+   "rating_rank": 40
+  },
+  {
+   "seed": 41,
+   "team": "Central (Cape Girardeau)",
+   "ovr_rating": 12.34,
+   "rating_rank": 41
+  },
+  {
+   "seed": 42,
+   "team": "Lebanon",
+   "ovr_rating": 11.81,
+   "rating_rank": 42
+  },
+  {
+   "seed": 43,
+   "team": "Windsor (Imperial)",
+   "ovr_rating": 11.38,
+   "rating_rank": 43
+  },
+  {
+   "seed": 44,
+   "team": "Marshfield",
+   "ovr_rating": 11.12,
+   "rating_rank": 44
+  },
+  {
+   "seed": 45,
+   "team": "St. Pius X (Kansas City)",
+   "ovr_rating": 10.81,
+   "rating_rank": 45
+  },
+  {
+   "seed": 46,
+   "team": "Mehlville",
+   "ovr_rating": 10.62,
+   "rating_rank": 46
+  },
+  {
+   "seed": 47,
+   "team": "Poplar Bluff",
+   "ovr_rating": 10.13,
+   "rating_rank": 47
+  },
+  {
+   "seed": 48,
+   "team": "Camdenton",
+   "ovr_rating": 9.62,
+   "rating_rank": 48
+  },
+  {
+   "seed": 49,
+   "team": "Union",
+   "ovr_rating": 9.53,
+   "rating_rank": 49
+  },
+  {
+   "seed": 50,
+   "team": "Hillsboro",
+   "ovr_rating": 8.75,
+   "rating_rank": 50
+  },
+  {
+   "seed": 51,
+   "team": "Warrensburg",
+   "ovr_rating": 8.33,
+   "rating_rank": 51
+  },
+  {
+   "seed": 52,
+   "team": "Warrenton",
+   "ovr_rating": 7.04,
+   "rating_rank": 52
+  },
+  {
+   "seed": 53,
+   "team": "Platte County",
+   "ovr_rating": 6.81,
+   "rating_rank": 53
+  },
+  {
+   "seed": 54,
+   "team": "William Chrisman",
+   "ovr_rating": 6.43,
+   "rating_rank": 54
+  },
+  {
+   "seed": 55,
+   "team": "Pacific",
+   "ovr_rating": 3.67,
+   "rating_rank": 55
+  },
+  {
+   "seed": 56,
+   "team": "Hannibal",
+   "ovr_rating": 2.7,
+   "rating_rank": 56
+  },
+  {
+   "seed": 57,
+   "team": "Ft. Zumwalt East",
+   "ovr_rating": 1.82,
+   "rating_rank": 57
+  },
+  {
+   "seed": 58,
+   "team": "McDonald County",
+   "ovr_rating": 1.62,
+   "rating_rank": 58
+  },
+  {
+   "seed": 59,
+   "team": "McCluer",
+   "ovr_rating": 0.19,
+   "rating_rank": 59
+  },
+  {
+   "seed": 60,
+   "team": "KIPP KC Legacy",
+   "ovr_rating": -7.99,
+   "rating_rank": 60
+  },
+  {
+   "seed": 61,
+   "team": "North Point",
+   "ovr_rating": -9.34,
+   "rating_rank": 61
+  },
+  {
+   "seed": 62,
+   "team": "Northeast (Kansas City)",
+   "ovr_rating": -11.55,
+   "rating_rank": 62
+  },
+  {
+   "seed": 63,
+   "team": "DeSoto",
+   "ovr_rating": -12.34,
+   "rating_rank": 63
+  },
+  {
+   "seed": 64,
+   "team": "Riverview Gardens",
+   "ovr_rating": -14.83,
+   "rating_rank": 64
+  }
+ ],
+ "jumps": [],
+ "districts": [
+  {
+   "district": 1,
+   "teams": [
+    {
+     "seed": 1,
+     "team": "Vianney"
+    },
+    {
+     "seed": 3,
+     "team": "Webster Groves"
+    },
+    {
+     "seed": 23,
+     "team": "Parkway Central"
+    },
+    {
+     "seed": 32,
+     "team": "Rockwood Summit"
+    },
+    {
+     "seed": 37,
+     "team": "Lutheran South"
+    },
+    {
+     "seed": 46,
+     "team": "Mehlville"
+    },
+    {
+     "seed": 55,
+     "team": "Pacific"
+    },
+    {
+     "seed": 57,
+     "team": "Ft. Zumwalt East"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Vianney",
+     "away": "Ft. Zumwalt East",
+     "drive_h": 0.56
+    },
+    {
+     "home": "Rockwood Summit",
+     "away": "Lutheran South",
+     "drive_h": 0.27
+    },
+    {
+     "home": "Webster Groves",
+     "away": "Pacific",
+     "drive_h": 0.58
+    },
+    {
+     "home": "Parkway Central",
+     "away": "Mehlville",
+     "drive_h": 0.46
+    }
+   ],
+   "max_drive_h": 0.93
+  },
+  {
+   "district": 2,
+   "teams": [
+    {
+     "seed": 13,
+     "team": "Van Horn"
+    },
+    {
+     "seed": 14,
+     "team": "Raytown"
+    },
+    {
+     "seed": 15,
+     "team": "Lincoln College Prep"
+    },
+    {
+     "seed": 19,
+     "team": "Grandview"
+    },
+    {
+     "seed": 21,
+     "team": "Belton"
+    },
+    {
+     "seed": 24,
+     "team": "Webb City"
+    },
+    {
+     "seed": 54,
+     "team": "William Chrisman"
+    },
+    {
+     "seed": 60,
+     "team": "KIPP KC Legacy"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Van Horn",
+     "away": "KIPP KC Legacy",
+     "drive_h": 0.19
+    },
+    {
+     "home": "Grandview",
+     "away": "Belton",
+     "drive_h": 0.18
+    },
+    {
+     "home": "Raytown",
+     "away": "William Chrisman",
+     "drive_h": 0.28
+    },
+    {
+     "home": "Lincoln College Prep",
+     "away": "Webb City",
+     "drive_h": 2.81
+    }
+   ],
+   "max_drive_h": 2.94
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Westminster Christian Academy"
+    },
+    {
+     "seed": 11,
+     "team": "Ft. Zumwalt South"
+    },
+    {
+     "seed": 28,
+     "team": "Parkway North"
+    },
+    {
+     "seed": 39,
+     "team": "Washington"
+    },
+    {
+     "seed": 49,
+     "team": "Union"
+    },
+    {
+     "seed": 52,
+     "team": "Warrenton"
+    },
+    {
+     "seed": 56,
+     "team": "Hannibal"
+    },
+    {
+     "seed": 61,
+     "team": "North Point"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Westminster Christian Academy",
+     "away": "North Point",
+     "drive_h": 0.6
+    },
+    {
+     "home": "Washington",
+     "away": "Union",
+     "drive_h": 0.24
+    },
+    {
+     "home": "Ft. Zumwalt South",
+     "away": "Hannibal",
+     "drive_h": 1.78
+    },
+    {
+     "home": "Parkway North",
+     "away": "Warrenton",
+     "drive_h": 1.0
+    }
+   ],
+   "max_drive_h": 2.31
+  },
+  {
+   "district": 4,
+   "teams": [
+    {
+     "seed": 7,
+     "team": "Helias Catholic"
+    },
+    {
+     "seed": 12,
+     "team": "Holt"
+    },
+    {
+     "seed": 25,
+     "team": "Capital City"
+    },
+    {
+     "seed": 35,
+     "team": "Jefferson City"
+    },
+    {
+     "seed": 40,
+     "team": "Father Tolton"
+    },
+    {
+     "seed": 42,
+     "team": "Lebanon"
+    },
+    {
+     "seed": 48,
+     "team": "Camdenton"
+    },
+    {
+     "seed": 51,
+     "team": "Warrensburg"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Helias Catholic",
+     "away": "Warrensburg",
+     "drive_h": 1.99
+    },
+    {
+     "home": "Jefferson City",
+     "away": "Father Tolton",
+     "drive_h": 0.56
+    },
+    {
+     "home": "Holt",
+     "away": "Camdenton",
+     "drive_h": 2.92
+    },
+    {
+     "home": "Capital City",
+     "away": "Lebanon",
+     "drive_h": 1.65
+    }
+   ],
+   "max_drive_h": 3.44
+  },
+  {
+   "district": 5,
+   "teams": [
+    {
+     "seed": 2,
+     "team": "MICDS"
+    },
+    {
+     "seed": 6,
+     "team": "McCluer North"
+    },
+    {
+     "seed": 26,
+     "team": "Hazelwood East"
+    },
+    {
+     "seed": 29,
+     "team": "University City"
+    },
+    {
+     "seed": 30,
+     "team": "Ladue Horton Watkins"
+    },
+    {
+     "seed": 36,
+     "team": "John Burroughs"
+    },
+    {
+     "seed": 59,
+     "team": "McCluer"
+    },
+    {
+     "seed": 64,
+     "team": "Riverview Gardens"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "MICDS",
+     "away": "Riverview Gardens",
+     "drive_h": 0.45
+    },
+    {
+     "home": "University City",
+     "away": "Ladue Horton Watkins",
+     "drive_h": 0.2
+    },
+    {
+     "home": "McCluer North",
+     "away": "McCluer",
+     "drive_h": 0.1
+    },
+    {
+     "home": "Hazelwood East",
+     "away": "John Burroughs",
+     "drive_h": 0.54
+    }
+   ],
+   "max_drive_h": 0.62
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 9,
+     "team": "Hillcrest"
+    },
+    {
+     "seed": 16,
+     "team": "Willard"
+    },
+    {
+     "seed": 22,
+     "team": "Carl Junction"
+    },
+    {
+     "seed": 27,
+     "team": "West Plains"
+    },
+    {
+     "seed": 34,
+     "team": "Parkview"
+    },
+    {
+     "seed": 38,
+     "team": "Central (Springfield)"
+    },
+    {
+     "seed": 44,
+     "team": "Marshfield"
+    },
+    {
+     "seed": 58,
+     "team": "McDonald County"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Hillcrest",
+     "away": "McDonald County",
+     "drive_h": 1.8
+    },
+    {
+     "home": "West Plains",
+     "away": "Parkview",
+     "drive_h": 2.24
+    },
+    {
+     "home": "Willard",
+     "away": "Marshfield",
+     "drive_h": 0.69
+    },
+    {
+     "home": "Carl Junction",
+     "away": "Central (Springfield)",
+     "drive_h": 1.6
+    }
+   ],
+   "max_drive_h": 3.88
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 4,
+     "team": "Sikeston"
+    },
+    {
+     "seed": 20,
+     "team": "Farmington"
+    },
+    {
+     "seed": 31,
+     "team": "Festus"
+    },
+    {
+     "seed": 41,
+     "team": "Central (Cape Girardeau)"
+    },
+    {
+     "seed": 43,
+     "team": "Windsor (Imperial)"
+    },
+    {
+     "seed": 47,
+     "team": "Poplar Bluff"
+    },
+    {
+     "seed": 50,
+     "team": "Hillsboro"
+    },
+    {
+     "seed": 63,
+     "team": "DeSoto"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Sikeston",
+     "away": "DeSoto",
+     "drive_h": 2.32
+    },
+    {
+     "home": "Central (Cape Girardeau)",
+     "away": "Windsor (Imperial)",
+     "drive_h": 1.71
+    },
+    {
+     "home": "Farmington",
+     "away": "Hillsboro",
+     "drive_h": 0.89
+    },
+    {
+     "home": "Festus",
+     "away": "Poplar Bluff",
+     "drive_h": 2.29
+    }
+   ],
+   "max_drive_h": 2.47
+  },
+  {
+   "district": 8,
+   "teams": [
+    {
+     "seed": 8,
+     "team": "Kearney"
+    },
+    {
+     "seed": 10,
+     "team": "Raytown South"
+    },
+    {
+     "seed": 17,
+     "team": "Winnetonka"
+    },
+    {
+     "seed": 18,
+     "team": "Pembroke Hill"
+    },
+    {
+     "seed": 33,
+     "team": "Ruskin"
+    },
+    {
+     "seed": 45,
+     "team": "St. Pius X (Kansas City)"
+    },
+    {
+     "seed": 53,
+     "team": "Platte County"
+    },
+    {
+     "seed": 62,
+     "team": "Northeast (Kansas City)"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Kearney",
+     "away": "Northeast (Kansas City)",
+     "drive_h": 0.54
+    },
+    {
+     "home": "Pembroke Hill",
+     "away": "Ruskin",
+     "drive_h": 0.36
+    },
+    {
+     "home": "Raytown South",
+     "away": "Platte County",
+     "drive_h": 0.8
+    },
+    {
+     "home": "Winnetonka",
+     "away": "St. Pius X (Kansas City)",
+     "drive_h": 0.12
+    }
+   ],
+   "max_drive_h": 0.86
+  }
+ ],
+ "quarterfinals": [
+  {
+   "districts": [
+    1,
+    2
+   ],
+   "max_drive_h": 5.47
+  },
+  {
+   "districts": [
+    3,
+    4
+   ],
+   "max_drive_h": 3.97
+  },
+  {
+   "districts": [
+    5,
+    6
+   ],
+   "max_drive_h": 6.07
+  },
+  {
+   "districts": [
+    7,
+    8
+   ],
+   "max_drive_h": 7.58
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "ideal_seed": 1,
+   "team": "Vianney",
+   "seed": 1
+  },
+  {
+   "line": 2,
+   "ideal_seed": 64,
+   "team": "Ft. Zumwalt East",
+   "seed": 57
+  },
+  {
+   "line": 3,
+   "ideal_seed": 32,
+   "team": "Rockwood Summit",
+   "seed": 32
+  },
+  {
+   "line": 4,
+   "ideal_seed": 33,
+   "team": "Lutheran South",
+   "seed": 37
+  },
+  {
+   "line": 5,
+   "ideal_seed": 16,
+   "team": "Webster Groves",
+   "seed": 3
+  },
+  {
+   "line": 6,
+   "ideal_seed": 49,
+   "team": "Pacific",
+   "seed": 55
+  },
+  {
+   "line": 7,
+   "ideal_seed": 17,
+   "team": "Parkway Central",
+   "seed": 23
+  },
+  {
+   "line": 8,
+   "ideal_seed": 48,
+   "team": "Mehlville",
+   "seed": 46
+  },
+  {
+   "line": 9,
+   "ideal_seed": 8,
+   "team": "Van Horn",
+   "seed": 13
+  },
+  {
+   "line": 10,
+   "ideal_seed": 57,
+   "team": "KIPP KC Legacy",
+   "seed": 60
+  },
+  {
+   "line": 11,
+   "ideal_seed": 25,
+   "team": "Grandview",
+   "seed": 19
+  },
+  {
+   "line": 12,
+   "ideal_seed": 40,
+   "team": "Belton",
+   "seed": 21
+  },
+  {
+   "line": 13,
+   "ideal_seed": 9,
+   "team": "Raytown",
+   "seed": 14
+  },
+  {
+   "line": 14,
+   "ideal_seed": 56,
+   "team": "William Chrisman",
+   "seed": 54
+  },
+  {
+   "line": 15,
+   "ideal_seed": 24,
+   "team": "Lincoln College Prep",
+   "seed": 15
+  },
+  {
+   "line": 16,
+   "ideal_seed": 41,
+   "team": "Webb City",
+   "seed": 24
+  },
+  {
+   "line": 17,
+   "ideal_seed": 4,
+   "team": "Westminster Christian Academy",
+   "seed": 5
+  },
+  {
+   "line": 18,
+   "ideal_seed": 61,
+   "team": "North Point",
+   "seed": 61
+  },
+  {
+   "line": 19,
+   "ideal_seed": 29,
+   "team": "Washington",
+   "seed": 39
+  },
+  {
+   "line": 20,
+   "ideal_seed": 36,
+   "team": "Union",
+   "seed": 49
+  },
+  {
+   "line": 21,
+   "ideal_seed": 13,
+   "team": "Ft. Zumwalt South",
+   "seed": 11
+  },
+  {
+   "line": 22,
+   "ideal_seed": 52,
+   "team": "Hannibal",
+   "seed": 56
+  },
+  {
+   "line": 23,
+   "ideal_seed": 20,
+   "team": "Parkway North",
+   "seed": 28
+  },
+  {
+   "line": 24,
+   "ideal_seed": 45,
+   "team": "Warrenton",
+   "seed": 52
+  },
+  {
+   "line": 25,
+   "ideal_seed": 5,
+   "team": "Helias Catholic",
+   "seed": 7
+  },
+  {
+   "line": 26,
+   "ideal_seed": 60,
+   "team": "Warrensburg",
+   "seed": 51
+  },
+  {
+   "line": 27,
+   "ideal_seed": 28,
+   "team": "Jefferson City",
+   "seed": 35
+  },
+  {
+   "line": 28,
+   "ideal_seed": 37,
+   "team": "Father Tolton",
+   "seed": 40
+  },
+  {
+   "line": 29,
+   "ideal_seed": 12,
+   "team": "Holt",
+   "seed": 12
+  },
+  {
+   "line": 30,
+   "ideal_seed": 53,
+   "team": "Camdenton",
+   "seed": 48
+  },
+  {
+   "line": 31,
+   "ideal_seed": 21,
+   "team": "Capital City",
+   "seed": 25
+  },
+  {
+   "line": 32,
+   "ideal_seed": 44,
+   "team": "Lebanon",
+   "seed": 42
+  },
+  {
+   "line": 33,
+   "ideal_seed": 2,
+   "team": "MICDS",
+   "seed": 2
+  },
+  {
+   "line": 34,
+   "ideal_seed": 63,
+   "team": "Riverview Gardens",
+   "seed": 64
+  },
+  {
+   "line": 35,
+   "ideal_seed": 31,
+   "team": "University City",
+   "seed": 29
+  },
+  {
+   "line": 36,
+   "ideal_seed": 34,
+   "team": "Ladue Horton Watkins",
+   "seed": 30
+  },
+  {
+   "line": 37,
+   "ideal_seed": 15,
+   "team": "McCluer North",
+   "seed": 6
+  },
+  {
+   "line": 38,
+   "ideal_seed": 50,
+   "team": "McCluer",
+   "seed": 59
+  },
+  {
+   "line": 39,
+   "ideal_seed": 18,
+   "team": "Hazelwood East",
+   "seed": 26
+  },
+  {
+   "line": 40,
+   "ideal_seed": 47,
+   "team": "John Burroughs",
+   "seed": 36
+  },
+  {
+   "line": 41,
+   "ideal_seed": 7,
+   "team": "Hillcrest",
+   "seed": 9
+  },
+  {
+   "line": 42,
+   "ideal_seed": 58,
+   "team": "McDonald County",
+   "seed": 58
+  },
+  {
+   "line": 43,
+   "ideal_seed": 26,
+   "team": "West Plains",
+   "seed": 27
+  },
+  {
+   "line": 44,
+   "ideal_seed": 39,
+   "team": "Parkview",
+   "seed": 34
+  },
+  {
+   "line": 45,
+   "ideal_seed": 10,
+   "team": "Willard",
+   "seed": 16
+  },
+  {
+   "line": 46,
+   "ideal_seed": 55,
+   "team": "Marshfield",
+   "seed": 44
+  },
+  {
+   "line": 47,
+   "ideal_seed": 23,
+   "team": "Carl Junction",
+   "seed": 22
+  },
+  {
+   "line": 48,
+   "ideal_seed": 42,
+   "team": "Central (Springfield)",
+   "seed": 38
+  },
+  {
+   "line": 49,
+   "ideal_seed": 3,
+   "team": "Sikeston",
+   "seed": 4
+  },
+  {
+   "line": 50,
+   "ideal_seed": 62,
+   "team": "DeSoto",
+   "seed": 63
+  },
+  {
+   "line": 51,
+   "ideal_seed": 30,
+   "team": "Central (Cape Girardeau)",
+   "seed": 41
+  },
+  {
+   "line": 52,
+   "ideal_seed": 35,
+   "team": "Windsor (Imperial)",
+   "seed": 43
+  },
+  {
+   "line": 53,
+   "ideal_seed": 14,
+   "team": "Farmington",
+   "seed": 20
+  },
+  {
+   "line": 54,
+   "ideal_seed": 51,
+   "team": "Hillsboro",
+   "seed": 50
+  },
+  {
+   "line": 55,
+   "ideal_seed": 19,
+   "team": "Festus",
+   "seed": 31
+  },
+  {
+   "line": 56,
+   "ideal_seed": 46,
+   "team": "Poplar Bluff",
+   "seed": 47
+  },
+  {
+   "line": 57,
+   "ideal_seed": 6,
+   "team": "Kearney",
+   "seed": 8
+  },
+  {
+   "line": 58,
+   "ideal_seed": 59,
+   "team": "Northeast (Kansas City)",
+   "seed": 62
+  },
+  {
+   "line": 59,
+   "ideal_seed": 27,
+   "team": "Pembroke Hill",
+   "seed": 18
+  },
+  {
+   "line": 60,
+   "ideal_seed": 38,
+   "team": "Ruskin",
+   "seed": 33
+  },
+  {
+   "line": 61,
+   "ideal_seed": 11,
+   "team": "Raytown South",
+   "seed": 10
+  },
+  {
+   "line": 62,
+   "ideal_seed": 54,
+   "team": "Platte County",
+   "seed": 53
+  },
+  {
+   "line": 63,
+   "ideal_seed": 22,
+   "team": "Winnetonka",
+   "seed": 17
+  },
+  {
+   "line": 64,
+   "ideal_seed": 43,
+   "team": "St. Pius X (Kansas City)",
+   "seed": 45
+  }
+ ],
+ "mshsaa_lines": [
+  {
+   "line": 1,
+   "team": "Sikeston"
+  },
+  {
+   "line": 2,
+   "team": "DeSoto"
+  },
+  {
+   "line": 3,
+   "team": "Festus"
+  },
+  {
+   "line": 4,
+   "team": "Central (Cape Girardeau)"
+  },
+  {
+   "line": 5,
+   "team": "Farmington"
+  },
+  {
+   "line": 6,
+   "team": "Hillsboro"
+  },
+  {
+   "line": 7,
+   "team": "West Plains"
+  },
+  {
+   "line": 8,
+   "team": "Poplar Bluff"
+  },
+  {
+   "line": 9,
+   "team": "Vianney"
+  },
+  {
+   "line": 10,
+   "team": "Pacific"
+  },
+  {
+   "line": 11,
+   "team": "Rockwood Summit"
+  },
+  {
+   "line": 12,
+   "team": "Lutheran South"
+  },
+  {
+   "line": 13,
+   "team": "Webster Groves"
+  },
+  {
+   "line": 14,
+   "team": "Mehlville"
+  },
+  {
+   "line": 15,
+   "team": "Westminster Christian Academy"
+  },
+  {
+   "line": 16,
+   "team": "Windsor (Imperial)"
+  },
+  {
+   "line": 17,
+   "team": "MICDS"
+  },
+  {
+   "line": 18,
+   "team": "Riverview Gardens"
+  },
+  {
+   "line": 19,
+   "team": "University City"
+  },
+  {
+   "line": 20,
+   "team": "Ladue Horton Watkins"
+  },
+  {
+   "line": 21,
+   "team": "McCluer North"
+  },
+  {
+   "line": 22,
+   "team": "McCluer"
+  },
+  {
+   "line": 23,
+   "team": "Hazelwood East"
+  },
+  {
+   "line": 24,
+   "team": "John Burroughs"
+  },
+  {
+   "line": 25,
+   "team": "Ft. Zumwalt South"
+  },
+  {
+   "line": 26,
+   "team": "North Point"
+  },
+  {
+   "line": 27,
+   "team": "Parkway North"
+  },
+  {
+   "line": 28,
+   "team": "Warrenton"
+  },
+  {
+   "line": 29,
+   "team": "Holt"
+  },
+  {
+   "line": 30,
+   "team": "Ft. Zumwalt East"
+  },
+  {
+   "line": 31,
+   "team": "Parkway Central"
+  },
+  {
+   "line": 32,
+   "team": "Hannibal"
+  },
+  {
+   "line": 33,
+   "team": "Helias Catholic"
+  },
+  {
+   "line": 34,
+   "team": "Union"
+  },
+  {
+   "line": 35,
+   "team": "Washington"
+  },
+  {
+   "line": 36,
+   "team": "Father Tolton"
+  },
+  {
+   "line": 37,
+   "team": "Capital City"
+  },
+  {
+   "line": 38,
+   "team": "Camdenton"
+  },
+  {
+   "line": 39,
+   "team": "Jefferson City"
+  },
+  {
+   "line": 40,
+   "team": "Lebanon"
+  },
+  {
+   "line": 41,
+   "team": "Hillcrest"
+  },
+  {
+   "line": 42,
+   "team": "McDonald County"
+  },
+  {
+   "line": 43,
+   "team": "Webb City"
+  },
+  {
+   "line": 44,
+   "team": "Parkview"
+  },
+  {
+   "line": 45,
+   "team": "Willard"
+  },
+  {
+   "line": 46,
+   "team": "Marshfield"
+  },
+  {
+   "line": 47,
+   "team": "Carl Junction"
+  },
+  {
+   "line": 48,
+   "team": "Central (Springfield)"
+  },
+  {
+   "line": 49,
+   "team": "Raytown South"
+  },
+  {
+   "line": 50,
+   "team": "William Chrisman"
+  },
+  {
+   "line": 51,
+   "team": "Grandview"
+  },
+  {
+   "line": 52,
+   "team": "Belton"
+  },
+  {
+   "line": 53,
+   "team": "Van Horn"
+  },
+  {
+   "line": 54,
+   "team": "Warrensburg"
+  },
+  {
+   "line": 55,
+   "team": "Raytown"
+  },
+  {
+   "line": 56,
+   "team": "Ruskin"
+  },
+  {
+   "line": 57,
+   "team": "Kearney"
+  },
+  {
+   "line": 58,
+   "team": "Northeast (Kansas City)"
+  },
+  {
+   "line": 59,
+   "team": "Pembroke Hill"
+  },
+  {
+   "line": 60,
+   "team": "St. Pius X (Kansas City)"
+  },
+  {
+   "line": 61,
+   "team": "Lincoln College Prep"
+  },
+  {
+   "line": 62,
+   "team": "KIPP KC Legacy"
+  },
+  {
+   "line": 63,
+   "team": "Winnetonka"
+  },
+  {
+   "line": 64,
+   "team": "Platte County"
+  }
+ ]
+}
