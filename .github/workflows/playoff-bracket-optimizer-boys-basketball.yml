@@ -11,17 +11,26 @@ on:
         description: "Season year in the ratings history file (2025 = 2025-26). Blank = latest"
         default: "2025"
         required: false
+      priority:
+        description: "What to optimize after travel limits"
+        type: choice
+        options: [balance, travel, geographic]
+        default: balance
       bye_rule:
-        description: "statewide = top seeds statewide get byes; district = each district's top seeds get its byes"
+        description: "district = each district's top seeds get its byes; statewide = top seeds statewide"
         type: choice
         options: [district, statewide]
         default: district
+      reseed:
+        description: "Re-seed district champions by seed after districts (state rounds ignore geography)"
+        type: boolean
+        default: false
       h2h_jumps:
         description: "Apply the head-to-head jump rule to seeds"
         type: boolean
         default: true
       games_through:
-        description: "Only use games on/before this date for head-to-head (YYYY-MM-DD, e.g. last regular-season day). Blank = all games"
+        description: "Only use games on/before this date for head-to-head (YYYY-MM-DD, last regular-season day). Blank = all"
         default: ""
         required: false
       district_limit:
@@ -29,17 +38,13 @@ on:
         default: "3.0"
         required: true
       next_limit:
-        description: "Max drive (hours) for the first round after districts (Sectional for 16-district classes, Quarterfinal for 8)"
+        description: "Max drive (hours) for the first round after districts (Sectional or Quarterfinal)"
         default: "4.0"
         required: true
-      drive_factor:
-        description: "Multiply OSRM drive times by this before checking limits (1.0 = raw OSRM)"
-        default: "1.0"
-        required: true
-      time_limit:
-        description: "Solver seconds per class"
-        default: "600"
-        required: true
+      extra_args:
+        description: "Optional extra options, e.g. --time-limit 600  --travel-slack-pct 50  --sweep 2.5,3,3.5,4  --factor 0.85"
+        default: ""
+        required: false
  
 permissions:
   contents: write
@@ -51,7 +56,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
  
@@ -74,14 +79,15 @@ jobs:
           python playoff_bracket_optimizer.py
           --sport boys_basketball
           --classes "${{ inputs.classes }}"
+          --priority "${{ inputs.priority }}"
           --bye-rule "${{ inputs.bye_rule }}"
           --district-limit "${{ inputs.district_limit }}"
           --next-limit "${{ inputs.next_limit }}"
-          --factor "${{ inputs.drive_factor }}"
-          --time-limit "${{ inputs.time_limit }}"
           ${{ inputs.season != '' && format('--season {0}', inputs.season) || '' }}
           ${{ inputs.games_through != '' && format('--games-through {0}', inputs.games_through) || '' }}
+          ${{ inputs.reseed && '--reseed' || '' }}
           ${{ inputs.h2h_jumps == false && '--no-jumps' || '' }}
+          ${{ inputs.extra_args }}
  
       - name: Commit results
         run: |
