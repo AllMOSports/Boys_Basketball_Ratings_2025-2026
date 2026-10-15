@@ -735,5 +735,449 @@
   "lon": -93.8005,
   "source": "zip_center",
   "addr": "PO BOX 7|VERONA|65769"
+ },
+ "Joplin": {
+  "lat": 37.09089135372,
+  "lon": -94.476918842974,
+  "source": "census",
+  "matched": "101 N RANGE LINE RD, JOPLIN, MO, 64801",
+  "addr": "101 N RANGELINE RD|JOPLIN|64801"
+ },
+ "Seckman": {
+  "lat": 38.398494842902,
+  "lon": -90.426673192173,
+  "source": "census",
+  "matched": "2800 SECKMAN RD, IMPERIAL, MO, 63052",
+  "addr": "2800 SECKMAN RD|IMPERIAL|63052"
+ },
+ "Parkway West": {
+  "lat": 38.62047499148,
+  "lon": -90.535336749071,
+  "source": "census",
+  "matched": "14653 CLAYTON RD, BALLWIN, MO, 63011",
+  "addr": "14653 CLAYTON RD|BALLWIN|63011"
+ },
+ "Parkway South": {
+  "lat": 38.571325469639,
+  "lon": -90.510861644914,
+  "source": "census",
+  "matched": "801 HANNA CT, MANCHESTER, MO, 63021",
+  "addr": "801 HANNA RD|MANCHESTER|63021"
+ },
+ "Ft. Zumwalt West": {
+  "lat": 38.788927640912,
+  "lon": -90.728468597644,
+  "source": "census",
+  "matched": "1251 TURTLE CREEK DR, O FALLON, MO, 63366",
+  "addr": "1251 TURTLE CREEK DR|O'FALLON|63366"
+ },
+ "Liberty (Wentzville)": {
+  "lat": 38.759246388455,
+  "lon": -90.784724388309,
+  "source": "census",
+  "matched": "2275 SOMMERS RD, LAKE ST LOUIS, MO, 63367",
+  "addr": "2275 SOMMERS ROAD|LAKE ST. LOUIS|63367"
+ },
+ "Carthage": {
+  "lat": 37.147306362187,
+  "lon": -94.301195809064,
+  "source": "census",
+  "matched": "2600 S RIVER ST, CARTHAGE, MO, 64836",
+  "addr": "2600 SOUTH RIVER|CARTHAGE|64836"
+ },
+ "Hazelwood Central": {
+  "lat": 38.831328130509,
+  "lon": -90.31330493278,
+  "source": "census",
+  "matched": "15875 NEW HALLS FERRY RD, FLORISSANT, MO, 63031",
+  "addr": "15875 NEW HALLS FERRY RD|FLORISSANT|63031"
+ },
+ "Oakville": {
+  "lat": 38.472597024285,
+  "lon": -90.319967614567,
+  "source": "census",
+  "matched": "5557 MILBURN RD, SAINT LOUIS, MO, 63129",
+  "addr": "5557 MILBURN RD|ST LOUIS|63129"
+ },
+ "Francis Howell North": {
+  "lat": 38.762425099722,
+  "lon": -90.558166700046,
+  "source": "census",
+  "matched": "2549 HACKMANN RD, SAINT CHARLES, MO, 63303",
+  "addr": "2549 HACKMANN RD|ST CHARLES|63303"
+ },
+ "Cardinal Ritter": {
+  "lat": 38.641949558529,
+  "lon": -90.234503090173,
+  "source": "census",
+  "matched": "701 N SPRING AVE, SAINT LOUIS, MO, 63108",
+  "addr": "701 N SPRING AVE|SAINT LOUIS|63108"
+ },
+ "Ritenour": {
+  "lat": 38.713390827921,
+  "lon": -90.355300340423,
+  "source": "census",
+  "matched": "9100 SAINT CHARLES ROCK RD, SAINT LOUIS, MO, 63114",
+  "addr": "9100 ST CHARLES ROCK RD|ST LOUIS|63114"
+ },
+ "St. Dominic": {
+  "lat": 38.805823712709,
+  "lon": -90.721600370537,
+  "source": "census",
+  "matched": "31 ST DOMINIC DR, O FALLON, MO, 63366",
+  "addr": "31 SAINT DOMINIC DR|O'FALLON|63366"
+ },
+ "Timberland": {
+  "lat": 38.767045208545,
+  "lon": -90.845361617059,
+  "source": "census",
+  "matched": "559 E HWY N, WENTZVILLE, MO, 63385",
+  "addr": "559 E HWY N|WENTZVILLE|63385"
+ },
+ "Nixa": {
+  "lat": 37.041765607218,
+  "lon": -93.294877906025,
+  "source": "census",
+  "matched": "301 S MAIN ST, NIXA, MO, 65714",
+  "addr": "301 SOUTH MAIN STREET|NIXA|65714"
+ },
+ "Troy Buchanan": {
+  "lat": 38.977271167588,
+  "lon": -90.956630423461,
+  "source": "census",
+  "matched": "1190 OLD CAP AU GRIS RD, TROY, MO, 63379",
+  "addr": "1190 OLD CAP-AU-GRIS|TROY|63379"
+ },
+ "Christian Brothers College": {
+  "lat": 38.639509317326,
+  "lon": -90.459454952312,
+  "source": "census",
+  "matched": "1850 DE LA SALLE DR, SAINT LOUIS, MO, 63141",
+  "addr": "1850 DE LA SALLE DR.|ST. LOUIS|63141"
+ },
+ "Central (St. Joseph)": {
+  "lat": 39.765856245111,
+  "lon": -94.828358406278,
+  "source": "census",
+  "matched": "2602 EDMOND ST, SAINT JOSEPH, MO, 64501",
+  "addr": "2602 EDMOND|ST JOSEPH|64501"
+ },
+ "Rolla": {
+  "lat": 37.949912815341,
+  "lon": -91.767266880692,
+  "source": "census",
+  "matched": "900 BULLDOG RUN, ROLLA, MO, 65401",
+  "addr": "900 BULLDOG RUN|ROLLA|65401"
+ },
+ "Ft. Zumwalt North": {
+  "lat": 38.821400629901,
+  "lon": -90.672166850161,
+  "source": "census",
+  "matched": "1230 TOM GINNEVER AVE, O FALLON, MO, 63366",
+  "addr": "1230 TOM GINNEVER BLVD|O'FALLON|63366"
+ },
+ "Battle": {
+  "lat": 38.968631975026,
+  "lon": -92.220991378138,
+  "source": "census",
+  "matched": "7575 E SAINT CHARLES RD, COLUMBIA, MO, 65202",
+  "addr": "7575 E ST. CHARLES ROAD|COLUMBIA|65202"
+ },
+ "Hazelwood West": {
+  "lat": 38.784736351922,
+  "lon": -90.379856479159,
+  "source": "census",
+  "matched": "1 WILDCAT LN, HAZELWOOD, MO, 63042",
+  "addr": "1 WILDCAT LN|HAZELWOOD|63042"
+ },
+ "Rock Bridge": {
+  "lat": 38.902808709641,
+  "lon": -92.335106049259,
+  "source": "census",
+  "matched": "4303 S PROVIDENCE RD, COLUMBIA, MO, 65203",
+  "addr": "4303 S PROVIDENCE RD|COLUMBIA|65203"
+ },
+ "Jackson": {
+  "lat": 37.379715547501,
+  "lon": -89.669461411559,
+  "source": "census",
+  "matched": "315 S MISSOURI ST, JACKSON, MO, 63755",
+  "addr": "315 S MISSOURI|JACKSON|63755"
+ },
+ "Rockhurst": {
+  "lat": 38.959838481781,
+  "lon": -94.60804355442,
+  "source": "census",
+  "matched": "9301 STATE LINE RD, KANSAS CITY, MO, 64114",
+  "addr": "9301 STATE LINE RD|KANSAS CITY|64114"
+ },
+ "Kickapoo": {
+  "lat": 37.147397244882,
+  "lon": -93.291272186155,
+  "source": "census",
+  "matched": "3710 S JEFFERSON AVE, SPRINGFIELD, MO, 65807",
+  "addr": "3710 S JEFFERSON|SPRINGFIELD|65807"
+ },
+ "De Smet Jesuit": {
+  "lat": 38.66036027725,
+  "lon": -90.443357485041,
+  "source": "census",
+  "matched": "233 N NEW BALLAS RD, CREVE COEUR, MO, 63141",
+  "addr": "233 N NEW BALLAS RD.|CREVE COEUR|63141"
+ },
+ "Chaminade College Prep": {
+  "lat": 38.650410583127,
+  "lon": -90.405478461012,
+  "source": "census",
+  "matched": "425 S LINDBERGH BLVD, FRONTENAC, MO, 63131",
+  "addr": "425 S LINDBERGH BLVD.|FRONTENAC|63131"
+ },
+ "Lee's Summit": {
+  "lat": 38.903178342139,
+  "lon": -94.366873851784,
+  "source": "census",
+  "matched": "400 SE BLUE PKWY, LEES SUMMIT, MO, 64063",
+  "addr": "400 SE BLUE PKWY|LEE'S SUMMIT|64063"
+ },
+ "Staley": {
+  "lat": 39.286789646008,
+  "lon": -94.540556220281,
+  "source": "census",
+  "matched": "2800 NE SHOAL CREEK PKWY, KANSAS CITY, MO, 64156",
+  "addr": "2800 NE SHOAL CREEK PKWY|KANSAS CITY|64156"
+ },
+ "Oak Park": {
+  "lat": 39.237867794678,
+  "lon": -94.572292850109,
+  "source": "census",
+  "matched": "825 NE 79TH TER, KANSAS CITY, MO, 64118",
+  "addr": "825 NE 79TH TERR|KANSAS CITY|64118"
+ },
+ "North Kansas City": {
+  "lat": 39.145247384087,
+  "lon": -94.573439390991,
+  "source": "census",
+  "matched": "620 E 23RD AVE, KANSAS CITY, MO, 64116",
+  "addr": "620 E 23RD AVE|KANSAS CITY|64116"
+ },
+ "Lee's Summit North": {
+  "lat": 38.928816093416,
+  "lon": -94.379549478899,
+  "source": "census",
+  "matched": "901 NE DOUGLAS ST, LEES SUMMIT, MO, 64086",
+  "addr": "901 NE DOUGLAS ST|LEE'S SUMMIT|64086"
+ },
+ "Blue Springs South": {
+  "lat": 39.004840341947,
+  "lon": -94.254042847856,
+  "source": "census",
+  "matched": "1200 SE ADAMS DAIRY PKWY, BLUE SPRINGS, MO, 64014",
+  "addr": "1200 SE ADAMS DAIRY PKWY|BLUE SPRINGS|64014"
+ },
+ "Waynesville": {
+  "lat": 37.812797087318,
+  "lon": -92.210355204018,
+  "source": "census",
+  "matched": "200 GW LN, WAYNESVILLE, MO, 65583",
+  "addr": "200 G W LN|WAYNESVILLE|65583"
+ },
+ "Fort Osage": {
+  "lat": 39.136799261849,
+  "lon": -94.280554878054,
+  "source": "census",
+  "matched": "25102 US HWY 24, INDEPENDENCE, MO, 64056",
+  "addr": "25102 E. US 24 HIGHWAY|INDEPENDENCE|64056"
+ },
+ "Northwest (Cedar Hill)": {
+  "lat": 38.368785828878,
+  "lon": -90.627352963451,
+  "source": "census",
+  "matched": "6005 CEDAR HILL RD, CEDAR HILL, MO, 63016",
+  "addr": "6005 CEDAR HILL RD|CEDAR HILL|63016"
+ },
+ "Fox": {
+  "lat": 38.448346653789,
+  "lon": -90.369738968236,
+  "source": "census",
+  "matched": "751 JEFFCO BLVD, ARNOLD, MO, 63010",
+  "addr": "751 JEFFCO BLVD|ARNOLD|63010"
+ },
+ "Marquette": {
+  "lat": 38.623421136481,
+  "lon": -90.581072921453,
+  "source": "census",
+  "matched": "2351 CLARKSON RD, CHESTERFIELD, MO, 63017",
+  "addr": "2351 CLARKSON RD|CHESTERFIELD|63017"
+ },
+ "Park Hill": {
+  "lat": 39.246852845936,
+  "lon": -94.672577195668,
+  "source": "census",
+  "matched": "7701 NW BARRY RD, KANSAS CITY, MO, 64153",
+  "addr": "7701 NW BARRY RD|KANSAS CITY|64153"
+ },
+ "Pattonville": {
+  "lat": 38.740044997108,
+  "lon": -90.453852296826,
+  "source": "census",
+  "matched": "2497 CREVE COEUR MILL RD, MARYLAND HEIGHTS, MO, 63043",
+  "addr": "2497 CREVE COEUR MILL RD|MARYLAND HEIGHTS|63043"
+ },
+ "Park Hill South": {
+  "lat": 39.173633650335,
+  "lon": -94.631234583505,
+  "source": "census",
+  "matched": "4500 NW RIVER PARK DR W, RIVERSIDE, MO, 64150",
+  "addr": "4500 NW RIVER PARK DR|RIVERSIDE|64150"
+ },
+ "Grain Valley": {
+  "lat": 39.010462201374,
+  "lon": -94.204393575859,
+  "source": "census",
+  "matched": "551 SW EAGLES PKWY, GRAIN VALLEY, MO, 64029",
+  "addr": "551 SW EAGLES PKWY|GRAIN VALLEY|64029"
+ },
+ "Liberty": {
+  "lat": 39.241652968516,
+  "lon": -94.448973997228,
+  "source": "census",
+  "matched": "200 W BLUE JAY DR, LIBERTY, MO, 64068",
+  "addr": "200 BLUEJAY DR|LIBERTY|64068"
+ },
+ "Lafayette (Wildwood)": {
+  "lat": 38.596886253509,
+  "lon": -90.63877889173,
+  "source": "census",
+  "matched": "17050 CLAYTON RD, WILDWOOD, MO, 63011",
+  "addr": "17050 CLAYTON RD|WILDWOOD|63011"
+ },
+ "Glendale": {
+  "lat": 37.162563001567,
+  "lon": -93.226461908654,
+  "source": "census",
+  "matched": "2727 S INGRAM MILL RD, SPRINGFIELD, MO, 65804",
+  "addr": "2727 S INGRAM MILL|SPRINGFIELD|65804"
+ },
+ "Blue Springs": {
+  "lat": 39.027988103424,
+  "lon": -94.285913488458,
+  "source": "census",
+  "matched": "2000 NW ASHTON DR, BLUE SPRINGS, MO, 64015",
+  "addr": "2000 NW ASHTON DR|BLUE SPRINGS|64015"
+ },
+ "Liberty North": {
+  "lat": 39.285737363242,
+  "lon": -94.429877509586,
+  "source": "census",
+  "matched": "1000 NE 104TH ST, LIBERTY, MO, 64068",
+  "addr": "1000 N.E. 104TH STREET|LIBERTY|64068"
+ },
+ "Raymore-Peculiar": {
+  "lat": 38.75190751036,
+  "lon": -94.459562547256,
+  "source": "census",
+  "matched": "20801 S SCHOOL RD, PECULIAR, MO, 64078",
+  "addr": "20801 S SCHOOL RD|PECULIAR|64078"
+ },
+ "Republic": {
+  "lat": 37.138155464494,
+  "lon": -93.415785202077,
+  "source": "census",
+  "matched": "4370 S REPMO DR, REPUBLIC, MO, 65738",
+  "addr": "4370 S. REPMO DRIVE|REPUBLIC|65738"
+ },
+ "Lindbergh": {
+  "lat": 38.528017958937,
+  "lon": -90.374415195415,
+  "source": "census",
+  "matched": "5000 S LINDBERGH BLVD, SAINT LOUIS, MO, 63126",
+  "addr": "5000 S. LINDBERGH|ST. LOUIS|63126"
+ },
+ "Branson": {
+  "lat": 36.700543883135,
+  "lon": -93.236984301427,
+  "source": "census",
+  "matched": "935 BUCHANAN RD, BRANSON, MO, 65616",
+  "addr": "935 BUCHANAN RD|BRANSON|65616"
+ },
+ "Francis Howell": {
+  "lat": 38.701177315761,
+  "lon": -90.716843388913,
+  "source": "census",
+  "matched": "7001 S HWY 94, SAINT CHARLES, MO, 63304",
+  "addr": "7001 HWY 94 SOUTH|ST CHARLES|63304"
+ },
+ "Summit Christian Academy": {
+  "lat": 38.892697177616,
+  "lon": -94.377672067082,
+  "source": "census",
+  "matched": "1500 SW JEFFERSON ST, LEES SUMMIT, MO, 64081",
+  "addr": "1500 SW JEFFERSON ST.|LEE'S SUMMIT|64081"
+ },
+ "SLUH": {
+  "lat": 38.628949643801,
+  "lon": -90.26711992365,
+  "source": "census",
+  "matched": "4970 OAKLAND AVE, SAINT LOUIS, MO, 63110",
+  "addr": "4970 OAKLAND AVE|SAINT LOUIS|63110"
+ },
+ "Lee's Summit West": {
+  "lat": 38.87250448298,
+  "lon": -94.397602716245,
+  "source": "census",
+  "matched": "2600 SW WARD RD, LEES SUMMIT, MO, 64082",
+  "addr": "2600 SW WARD RD|LEE'S SUMMIT|64082"
+ },
+ "Truman": {
+  "lat": 39.060499246403,
+  "lon": -94.414756940537,
+  "source": "census",
+  "matched": "3301 S NOLAND RD, INDEPENDENCE, MO, 64055",
+  "addr": "3301 S NOLAND RD|INDEPENDENCE|64055"
+ },
+ "Hickman": {
+  "lat": 38.963097076566,
+  "lon": -92.333804309311,
+  "source": "census",
+  "matched": "1104 N PROVIDENCE RD, COLUMBIA, MO, 65203",
+  "addr": "1104 N PROVIDENCE RD|COLUMBIA|65203"
+ },
+ "Kirkwood": {
+  "lat": 38.589129198876,
+  "lon": -90.421508089915,
+  "source": "census",
+  "matched": "801 W ESSEX AVE, KIRKWOOD, MO, 63122",
+  "addr": "801 W ESSEX AVE|KIRKWOOD|63122"
+ },
+ "Neosho": {
+  "lat": 36.864934804097,
+  "lon": -94.381091533615,
+  "source": "census",
+  "matched": "511 S NEOSHO BLVD, NEOSHO, MO, 64850",
+  "addr": "511 NEOSHO BLVD|NEOSHO|64850"
+ },
+ "Francis Howell Central": {
+  "lat": 38.7378,
+  "lon": -90.6234,
+  "source": "zip_center",
+  "addr": "5199 HWY N|ST CHARLES|63304"
+ },
+ "Eureka": {
+  "lat": 38.5128,
+  "lon": -90.6306,
+  "source": "zip_center",
+  "addr": "4525 HWY 109|EUREKA|63025"
+ },
+ "Ozark": {
+  "lat": 37.0169,
+  "lon": -93.2022,
+  "source": "zip_center",
+  "addr": "1350 W BLUFF DR|OZARK|65721"
+ },
+ "Smith-Cotton": {
+  "lat": 38.6961,
+  "lon": -93.2323,
+  "source": "zip_center",
+  "addr": "2010 TIGER PRIDE BOULEVARD|SEDALIA|65301"
  }
 }
